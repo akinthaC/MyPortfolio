@@ -267,8 +267,12 @@ main:nth-of-type(10) section img {
     width: 12em;
     height: 3.5em;
     margin-left: 16em;
+    margin-top: 2em;
     border-radius: 8em;
+    border: #FFD703;
     background-color: #F2F463;
+    box-shadow: 0px 10px 1000px #FFD703;
+
 }
 
 
@@ -289,9 +293,10 @@ main:nth-of-type(10) section img {
 
 #main2>#main2se2>img{
     position: absolute;
-    top: 10em;
-    right: 16em;
+    top: 9em;
+    right: 15em;
     width: 18em;
+    border-radius: 100px;
     
 }
 
@@ -303,4 +308,20 @@ main:nth-of-type(10) section img {
     font-size: 50px;
 }
 
+#main3{
+    position: relative;
+    margin-top: 1em;
+}
 
+#main3>h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#main3>#main3se1>h4{
+
+}
