@@ -5,33 +5,37 @@
     <title>Title</title>
     <link rel="stylesheet" href="assest/style/normalize.css">
     <link rel="stylesheet" href="assest/style/Style.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
 <header>
     <div>
-        <h3>AKI C..</h3>
+        <h3 >AKI C..</h3>
     </div>
 
     <nav>
-        <a href="">// Home</a>
-        <a href="">// About</a>
-        <a href="">// Work</a>
-        <a href="">// Education</a>
-        <a href="">// Skill</a>
-        <a href="">// Contact</a>
+        <a href="">_ Home</a>
+        <a href="">_ About</a>
+        <a href="">_ Work</a>
+        <a href="">_ Education</a>
+        <a href="">_ Skill</a>
+        <a href="">_ Contact</a>
     </nav>
 </header>
 
 <main id="main1">
-    <section>
+    <section >
         <img src="assest/images/HomeImage/box2.png" alt="" srcset="">
         <img src="assest/images/HomeImage/box1.png" alt="" srcset="">
 
     </section>
 
     <section>
-        <h1>AKINTHA CHANDINU</h1>
+        <h1 class=" animate__animated animate__fadeInLeft">AKINTHA CHANDINU</h1>
         <h4>Software developer</h4>
     </section>
 
@@ -39,7 +43,7 @@
         <div></div>
         <div>
              <img src="assest/images/img_1.png">
-             <img src="assest/images/img.png">
+             <img src="assest/images/11.png">
         </div>
     </section>
 
@@ -53,9 +57,11 @@
 <main id="main2">
     <h2>About me.</h2>
 
-    <section id="main2se1">
+    <section id="main2se1" >
         <h3>Software Engineer , Front End & <span>Back End Developer</span> </h3>
-        <p>Hello! My name is Akintha Chandinu, and I'm a passionate software engineer based in Sri Lanka. I specialize in Java development, with a particular focus on JavaFX for user interface design. My journey in software development has been driven by a desire to create intuitive and engaging applications that make a difference.</p>
+        <p data-aos="flip-left"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000">Hello! My name is Akintha Chandinu, and I'm a passionate software engineer based in Sri Lanka. I specialize in Java development, with a particular focus on JavaFX for user interface design. My journey in software development has been driven by a desire to create intuitive and engaging applications that make a difference.</p>
         <button>Download CV</button>
     </section>
 
@@ -112,10 +118,11 @@
 </main>
 
 
-<main>
-    <h2>My assignment</h2>
-    <section>
+<main id="main5">
+    <h2>My assignment.</h2>
+    <section id="main5se1">
         <div>
+
             <!-- Card title -->
             <h3>Assignment 01</h3>
             <img src="" alt="Assignment 01">
@@ -144,12 +151,49 @@
             <!-- Card button -->
             <button>View more</button>
         </div>
+        <div>
+            <!-- Card title -->
+            <h3>Assignment 04</h3>
+            <img src="" alt="Assignment 04">
+            <!-- Card description -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <!-- Card button -->
+            <button>View more</button>
+        </div>
+        <!-- Card 2 -->
+        <div>
+            <!-- Card title -->
+            <h3>Assignment 05</h3>
+            <img src="" alt="Assignment 05">
+            <!-- Card description -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <!-- Card button -->
+            <button>View more</button>
+        </div>
+        <!-- Card 3 -->
+        <div>
+            <!-- Card title -->
+            <h3>Assignment 06</h3>
+            <img src="" alt="Assignment 06">
+            <!-- Card description -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <!-- Card button -->
+            <button id="99">View more</button>
+        </div>
     </section>
 </main>
-<main>
+
+
+<main id="main6">
     <h2>Education</h2>
-    <section>
-        <div>
+    <section id="main6se1">
+        <div id="d1">
+            <img src="assest/images/Education/img.png" alt="" >
+            <img src="assest/images/Education/img_1.png" alt="" >
+            <div>
+                <img src="assest/images/Education/img_2.png" alt="" >
+                <img src="assest/images/Education/img_3.png" alt="" >
+            </div>
             <h4>Advance Level</h4>
             <p>Lorem ipsum dolor sit amet consectetur. Amet suspendisse nibh dui vitae dolor felis. Blandit nisl vel justo sollicitudin volutpat aliquam magna. Vitae mauris tincidunt viverra egestas nec lorem viverra. Arcu ridiculus massa malesuada aliquam adipiscing. At .</p>
         </div>
@@ -283,5 +327,9 @@
 <footer>
     <h6>Copyright @ AKI C. - All rights reserved.</h6>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
