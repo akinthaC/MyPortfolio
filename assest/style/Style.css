@@ -4,7 +4,7 @@ body{
     background: #15212E ;
     margin: 0;
     padding: 0;
-    overflow: scroll;
+    overflow-x: hidden;
 }
 
 header{
@@ -534,21 +534,21 @@ main:nth-of-type(10) section img {
 #main6>#main6se1>#d1>img:first-child{
     width: 9em;
     height: auto;
-    margin-left: 5em;
+    margin-left: 8em;
 }
 
 #main6>#main6se1>#d1>img:nth-child(2){
-    width: 20em;
+    width: 28em;
     position: absolute;
-    bottom: 20em;
-    left: 7.4em;
+    bottom: 41em;
+    left: 10.4em;
 
 }
 
 #main6>#main6se1>#d1>div{
     position: relative;
-    top: 3em;
-    left: 30em;
+    top: 4.4em;
+    left: 39em;
 
 }
 #main6>#main6se1>#d1>div>img:nth-child(1){
@@ -565,9 +565,65 @@ main:nth-of-type(10) section img {
     left: 1.43em;
     width: 4em;
 }
+#main6>#main6se1>#d1>div:nth-child(2){
+    position: absolute;
+    top: -4em;
+    left: 4.5em;
+}
 
+#main6>#main6se1>#d1>#div2{
+    position: relative;
+    left: 40em;
+}
 
+#main6>#main6se1>#d1>#div2>div {
+    width: 15em;
+    height: 23em;
+    border: 0.2em solid black;
+    position: relative; /* Ensure pseudo-element works with relative positioning */
+    background-color: transparent; /* Remove background from the main div */
+    display: flex;
+    justify-content: space-evenly;
+    top: -5em;
+    right: -7em;
+    border-radius: 2em;
+}
 
+#main6>#main6se1>#d1>#div2>div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    mix-blend-mode: overlay; /* Apply overlay to the pseudo-element */
+    z-index: 0; /* Keep it behind the text */
+    border-radius: 2em;
+}
+
+#main6>#main6se1>#d1>#div2>div>p {
+    position: relative;
+    color: white; /* Keep the text color white */
+    z-index: 1; /* Ensure the text appears above the overlay */
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    margin: 1em;
+
+}
+#main6>#main6se1>#d1>#div2>h4>span{
+    color: #FFD703;
+}
+
+#main6>#main6se1>#d1>#div2>h4{
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    left: 6em;
+    top: -3em;
+}
 
 
 
