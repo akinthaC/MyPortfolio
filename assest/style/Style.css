@@ -174,7 +174,7 @@ transform: matrix(0, -1, 1, 0, 0, 0);*/
     width: 590px;
     height: 500px;
     transform: matrix(1, 0, 0, 1, 0, 0);
-    mix-blend-mode: saturation;
+    mix-blend-mode: normal;
 
 }
 #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
@@ -183,8 +183,15 @@ transform: matrix(0, -1, 1, 0, 0, 0);*/
     top: 7.5em;
     width: 400px;
    transform: matrix(1, 0, -0.02, 1, 0, 0);
-    mix-blend-mode: saturation;
+    mix-blend-mode: normal;
 
+}
+
+#main1>section:nth-child(3)>div:nth-child(2):hover{
+    #main1>section:nth-child(3)>div:nth-child(2){
+
+    }
+    mix-blend-mode: normal;
 }
 /* Group 2 */
 
@@ -531,6 +538,11 @@ main:nth-of-type(10) section img {
 #main6{
     position: relative;
 }
+
+#main6>#main6se1>#d1{
+    position: relative;
+
+}
 #main6>#main6se1>#d1>img:first-child{
     width: 9em;
     height: auto;
@@ -538,24 +550,31 @@ main:nth-of-type(10) section img {
 }
 
 #main6>#main6se1>#d1>img:nth-child(2){
-    width: 28em;
+    width: 33em;
     position: absolute;
-    bottom: 41em;
+    bottom:20.5em;
     left: 10.4em;
 
 }
 
+#main6>#main6se1>#d1>img:nth-child(3){
+    width: 0.32em;
+    height: auto;
+    position: absolute;
+    bottom: 21.4em;
+    left: 10.34em;
+
+}
 #main6>#main6se1>#d1>div{
     position: relative;
-    top: 4.4em;
-    left: 39em;
+    top: 6.1em;
+    left: 44em;
 
 }
 #main6>#main6se1>#d1>div>img:nth-child(1){
     mix-blend-mode: overlay;
     width: 7em;
     position: absolute;
-
 
 }
 
@@ -573,7 +592,8 @@ main:nth-of-type(10) section img {
 
 #main6>#main6se1>#d1>#div2{
     position: relative;
-    left: 40em;
+    left: 45em;
+    top: 6em;
 }
 
 #main6>#main6se1>#d1>#div2>div {
@@ -621,10 +641,301 @@ main:nth-of-type(10) section img {
     color: white;
     font-size: 1.5em;
     position: relative;
-    left: 6em;
+    left: 6.5em;
     top: -3em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(1){
+    position: relative;
+    top: -2em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(1)>img:nth-child(1){
+    width: 0.34em;
+    position: absolute;
+    height: auto;
+    left: 47.3em;
+    top: -19.5em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(1)>img:nth-child(2){
+    width: 15em;
+    height: 2.2em;
+    position: absolute;
+    bottom: -7.14em;
+    left: 32.6em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(2)>img:nth-child(1){
+    mix-blend-mode: overlay;
+    width: 7em;
+    position: absolute;
+
+}
+
+#main6>#main6se1>#d2>div:nth-child(2)>img:nth-child(2){
+    position: absolute;
+    top: -3em;
+    left: 1.43em;
+    width: 4em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(2){
+    position: relative;
+    top: 2em;
+    left: 25.3em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(3)>div{
+    width: 15em;
+    height: 23em;
+    border: 0.2em solid black;
+    position: relative; /* Ensure pseudo-element works with relative positioning */
+    background-color: transparent; /* Remove background from the main div */
+    display: flex;
+    justify-content: space-evenly;
+    top: -5em;
+    right: -7em;
+    border-radius: 2em;
+}
+
+
+#main6>#main6se1>#d2>div:nth-child(3)>div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    mix-blend-mode: overlay; /* Apply overlay to the pseudo-element */
+    z-index: 0; /* Keep it behind the text */
+    border-radius: 2em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(3)>div>p{
+    position: relative;
+    color: white; /* Keep the text color white */
+    z-index: 1; /* Ensure the text appears above the overlay */
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    margin: 1em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(3)>h4{
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    left: 6.5em;
+    top: -3em;
+}
+
+#main6>#main6se1>#d2>div:nth-child(3)>h4>span{
+    color: #FFD703;
+}
+
+#main6>#main6se1>#d2>div:nth-child(3){
+    position: relative;
+    top: 2em;
+    left: 2em;
 }
 
 
 
+#main6>#main6se1>#d3>div:nth-child(1){
+    position: relative;
+    top: -4em;
+}
 
+#main6>#main6se1>#d3>div:nth-child(1)>img:nth-child(1){
+    width: 0.34em;
+    position: absolute;
+    height: auto;
+    left: 28.6em;
+    top: -19.6em;
+}
+
+#main6>#main6se1>#d3>div:nth-child(1)>img:nth-child(2){
+    width: 32em;
+    height: 2.1em;
+    position: absolute;
+    bottom: -1em;
+    left: 28.6em;
+}
+
+#main6>#main6se1>#d3>div:nth-child(2)>img:nth-child(1){
+    mix-blend-mode: overlay;
+    width: 7em;
+    position: absolute;
+
+}
+
+#main6>#main6se1>#d3>div:nth-child(2)>img:nth-child(2){
+    position: absolute;
+    top: -4.2em;
+    left: 1.43em;
+    width: 4em;
+}
+
+#main6>#main6se1>#d3>div:nth-child(2){
+    position: relative;
+    top: -5.6em;
+    left: 60.9em;
+}
+
+#main6>#main6se1>#d3>div:nth-child(3)>div{
+    width: 15em;
+    height: 23em;
+    border: 0.2em solid black;
+    position: relative; /* Ensure pseudo-element works with relative positioning */
+    background-color: transparent; /* Remove background from the main div */
+    display: flex;
+    justify-content: space-evenly;
+    top: -5em;
+    right: -7em;
+    border-radius: 2em;
+}
+
+
+#main6>#main6se1>#d3>div:nth-child(3)>div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    mix-blend-mode: overlay; /* Apply overlay to the pseudo-element */
+    z-index: 0; /* Keep it behind the text */
+    border-radius: 2em;
+}
+
+#main6>#main6se1>#d3>div:nth-child(3)>div>p{
+    position: relative;
+    color: white; /* Keep the text color white */
+    z-index: 1; /* Ensure the text appears above the overlay */
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    margin: 1em;
+}
+
+#main6>#main6se1>#d3>div:nth-child(3)>h4{
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    left: 6.5em;
+    top: -3em;
+}
+
+#main6>#main6se1>#d3>div:nth-child(3)>h4>span{
+    color: #FFD703;
+}
+
+#main6>#main6se1>#d3>div:nth-child(3){
+    position: relative;
+    top: -5em;
+    left: 62em;
+}
+
+
+
+#main6>#main6se1>#d4>div:nth-child(1){
+    position: relative;
+    top: -4em;
+}
+
+#main6>#main6se1>#d4>div:nth-child(1)>img:nth-child(1){
+    width: 0.34em;
+    position: absolute;
+    height: auto;
+    left: 64.3em;
+    top: -27.2em;
+}
+
+#main6>#main6se1>#d4>div:nth-child(1)>img:nth-child(2){
+    width: 21.4em;
+    height: 2.1em;
+    position: absolute;
+    bottom: 0.8em;
+    left: 43.25em;
+}
+
+#main6>#main6se1>#d4>div:nth-child(2)>img:nth-child(1){
+    mix-blend-mode: overlay;
+    width: 7em;
+    position: absolute;
+
+}
+
+#main6>#main6se1>#d4>div:nth-child(2)>img:nth-child(2){
+    position: absolute;
+    top: -4.2em;
+    left: 1.44em;
+    width: 4em;
+}
+
+#main6>#main6se1>#d4>div:nth-child(2){
+    position: relative;
+    top: -7.8em;
+    left: 36em;
+}
+
+#main6>#main6se1>#d4>div:nth-child(3)>div{
+    width: 15em;
+    height: 23em;
+    border: 0.2em solid black;
+    position: relative; /* Ensure pseudo-element works with relative positioning */
+    background-color: transparent; /* Remove background from the main div */
+    display: flex;
+    justify-content: space-evenly;
+    top: -5em;
+    right: -7em;
+    border-radius: 2em;
+}
+
+
+#main6>#main6se1>#d4>div:nth-child(3)>div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    mix-blend-mode: overlay; /* Apply overlay to the pseudo-element */
+    z-index: 0; /* Keep it behind the text */
+    border-radius: 2em;
+}
+
+#main6>#main6se1>#d4>div:nth-child(3)>div>p{
+    position: relative;
+    color: white; /* Keep the text color white */
+    z-index: 1; /* Ensure the text appears above the overlay */
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    margin: 1em;
+}
+
+#main6>#main6se1>#d4>div:nth-child(3)>h4{
+    color: white;
+    font-size: 1.5em;
+    position: relative;
+    left: 6.15em;
+    top: -3em;
+}
+
+#main6>#main6se1>#d4>div:nth-child(3)>h4>span{
+    color: #FFD703;
+}
+
+#main6>#main6se1>#d4>div:nth-child(3){
+    position: relative;
+    top: -7em;
+    left: 11em;
+}
