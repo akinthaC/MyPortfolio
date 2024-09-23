@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+
 body{
     background: #15212E ;
     margin: 0;
@@ -938,4 +940,78 @@ main:nth-of-type(10) section img {
     position: relative;
     top: -7em;
     left: 11em;
+}
+
+
+
+#main7>h2{
+    margin-top: -2em;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#main7>span{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+}
+#main7>#main7se1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main7se1>#id1{
+    width: 70%;
+    height: 10em;
+    border: 0.1em solid black;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#main7se1>#id1>div{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 0em;
+    row-gap: 2em;
+}
+
+#main7se1>#id1>div>img{
+    width: 40%;
+}
+
+#main7>#main7se2>span{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+}
+
+#main7>#main7se2>#main7se2d1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#main7>#main7se2>#main7se2d1>div{
+    width: 40%;
+    height: 23em;
+    border: 0.1em solid black;
+    padding: 1em;
+    color: white;
+}
+
+
+#main7>#main7se2>#main7se2d1>div>p{
+    margin-left: 2em;
 }
