@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assest/style/normalize.css">
     <link rel="stylesheet" href="assest/style/Style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,13 +20,29 @@
     </div>
 
     <nav>
-        <a href="">_ Home</a>
-        <a href="">_ About</a>
-        <a href="">_ Work</a>
-        <a href="">_ Education</a>
-        <a href="">_ Skill</a>
-        <a href="">_ Contact</a>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sider-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+            </svg>
+        </label>
+
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sider-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </label>
+
+            <a href="">_ Home</a>
+            <a href="">_ About</a>
+            <a href="">_ Work</a>
+            <a href="">_ Education</a>
+            <a href="">_ Skill</a>
+            <a href="">_ Contact</a>
+        </div>
     </nav>
+
 </header>
 
 <main id="main1">
