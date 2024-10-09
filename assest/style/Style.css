@@ -488,8 +488,7 @@ main:nth-of-type(10) section img {
     right: 0;
     left: -2em;
     bottom: 0;
-padding: 0;
-    z-index: 999;
+    padding: 0;
 }
 
 #c2{
@@ -500,7 +499,7 @@ padding: 0;
     right: 0;
     left: -2em;
     bottom: 0;
-    z-index: 999;
+
     margin-top: -25em;
 }
 
