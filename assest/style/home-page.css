@@ -771,7 +771,7 @@ header>nav>a{
     #main1>section:nth-child(1)>img:nth-child(3){
         position: absolute;
         top: -3em;
-        left: -12.5em;
+        left: -11.5em;
         right: 0;
         bottom: 0;
         margin: auto;
@@ -783,8 +783,8 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(4){
         position: absolute;
-        top: -4em;
-        left: 0em;
+        top: -0.5em;
+        left: -9em;
         right: -16em;
         bottom: 0;
         margin: auto;
@@ -878,9 +878,11 @@ header>nav>a{
 
 
     #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(2){ /*issue*/
+        display: flex;
         position: absolute;
-        right: 3em;
-        bottom: 7.2em;
+        right: 4em;
+        top: 25em;
+        bottom:0;
         margin: auto;
         width: 400px;
         height: 320px;
@@ -890,8 +892,8 @@ header>nav>a{
     }
     #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
         position: absolute;
-        right: 6.8em;
-        top: 22.5em;
+        right: 7.8em;
+        top: 27em;
         width: 120px;
         height: 37px;
         transform: matrix(1, 0, -0.02, 1, 0, 0);
