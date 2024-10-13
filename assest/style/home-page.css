@@ -748,15 +748,15 @@ header>nav>a{
         right: 0;
         bottom: 0;
         margin: auto;
-        width: 220px;
-        height: 225px;
+        width: 250px;
+        height: 250px;
         filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
         transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
 
     }
     #main1>section:nth-child(1)>img:nth-child(1){
         position: absolute;
-        top: -45em;
+        top: -46em;
         left: -5em;
         right: 0;
         bottom: 0;
@@ -770,7 +770,7 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(3){
         position: absolute;
-        top: -1em;
+        top: -0.2em;
         left: -10.5em;
         right: 0;
         bottom: 0;
@@ -783,7 +783,7 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(4){
         position: absolute;
-        top: -2em;
+        top: 1em;
         left: -9em;
         right: -22em;
         bottom: 0;
@@ -795,8 +795,8 @@ header>nav>a{
     }
     #main1>section:nth-child(1)>img:nth-child(5){
         position: absolute;
-        top: -21em;
-        left: -10em;
+        top: -16.3em;
+        left: -5em;
         right: 0;
         bottom: 0;
         margin: auto;
@@ -816,11 +816,11 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(7){
         position: absolute;
-        top: -26em;
+        top: -25.8em;
         left: 12em;
         bottom: 0;
         margin: auto;
-        width: 30px;
+        width: 35px;
         height: auto;
         filter: drop-shadow(17px 10px 30.6px #FFCBAE);
 
@@ -828,11 +828,11 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(8){
         position: absolute;
-        top: -37em;
-        left: 10em;
+        top: -38em;
+        left: 15em;
         bottom: 0;
         margin: auto;
-        width: 160px;
+        width: 120px;
         height: auto;
     }
 
