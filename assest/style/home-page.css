@@ -816,7 +816,7 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(7){
         position: absolute;
-        top: -38.8em;
+        top: -35.8em;
         left: 18em;
         bottom: 0;
         margin: auto;
@@ -828,11 +828,11 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(8){
         position: absolute;
-        top: -30em;
-        left: 15em;
+        top: -25em;
+        left: 13em;
         bottom: 0;
         margin: auto;
-        width: 125px;
+        width: 145px;
         height: auto;
     }
 
@@ -841,7 +841,7 @@ header>nav>a{
 
     #main1>section:nth-child(2)>h1{
         position: absolute;
-        top: 4.8em;
+        top: 2.8em;
         left: 0;
         right: 0;
         bottom: 0;
@@ -862,7 +862,7 @@ header>nav>a{
 
     #main1>section:nth-child(2)>h4{
         position: absolute;
-        top: 4.7em;
+        top: 2.7em;
         left: 0;
         right: 0;
         bottom: 0;
