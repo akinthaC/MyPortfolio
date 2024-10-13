@@ -817,7 +817,7 @@ header>nav>a{
     #main1>section:nth-child(1)>img:nth-child(7){
         position: absolute;
         top: -25.8em;
-        left: 12em;
+        left: 11em;
         bottom: 0;
         margin: auto;
         width: 35px;
@@ -841,12 +841,12 @@ header>nav>a{
 
     #main1>section:nth-child(2)>h1{
         position: absolute;
-        top: 2.8em;
+        top: 4.8em;
         left: 0;
         right: 0;
         bottom: 0;
         margin: auto;
-        font-size: 30px;
+        font-size: 33px;
         display: flex;
         justify-content: space-evenly;
         color: white;
@@ -862,7 +862,7 @@ header>nav>a{
 
     #main1>section:nth-child(2)>h4{
         position: absolute;
-        top: 2.7em;
+        top: 5.7em;
         left: 0;
         right: 0;
         bottom: 0;
