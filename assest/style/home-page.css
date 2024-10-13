@@ -415,52 +415,328 @@ header>nav>a{
 
 
 @media (max-width: 320px) {
-    #main1 {
-        height: auto; /* Allow height to adjust automatically */
+    #main1>section:nth-child(1)>img:nth-child(2){
+        position: absolute;
+        top: -13em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 220px;
+        height: 225px;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+        transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
+
+    }
+    #main1>section:nth-child(1)>img:nth-child(1){
+        position: absolute;
+        top: -45em;
+        left: -5em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 395px;
+        height: 395px;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+        transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
+
     }
 
-    #main1 > section:nth-child(1) > img {
-        width: 100px; /* Adjust images for small screen */
+    #main1>section:nth-child(1)>img:nth-child(3){
+        position: absolute;
+        top: -3em;
+        left: -12.5em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 75px;
         height: auto;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+
     }
 
-    #main1 > section:nth-child(2) > h1 {
-        font-size: 24px; /* Reduce font size for small screen */
-    }
+    #main1>section:nth-child(1)>img:nth-child(4){
+        position: absolute;
+        top: -4em;
+        left: 0em;
+        right: -16em;
+        bottom: 0;
+        margin: auto;
+        width: 70px;
+        height: auto;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
 
-    #main1 > section:nth-child(2) > h4 {
-        font-size: 16px;
     }
-
-    #main1 > section:nth-child(3) > div:nth-child(2) > img {
+    #main1>section:nth-child(1)>img:nth-child(5){
+        position: absolute;
+        top: -21em;
+        left: -10em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
         width: 150px;
         height: auto;
     }
+
+    #main1>section:nth-child(1)>img:nth-child(6){
+        position: absolute;
+        top:20em;
+        left: 0em;
+        bottom: 0;
+        margin: auto;
+        width: 200px;
+        height: auto;
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(7){
+        position: absolute;
+        top: -26em;
+        left: 12em;
+        bottom: 0;
+        margin: auto;
+        width: 30px;
+        height: auto;
+        filter: drop-shadow(17px 10px 30.6px #FFCBAE);
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(8){
+        position: absolute;
+        top: -37em;
+        left: 10em;
+        bottom: 0;
+        margin: auto;
+        width: 160px;
+        height: auto;
+    }
+
+
+
+
+    #main1>section:nth-child(2)>h1{
+        position: absolute;
+        top: 2.8em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        font-size: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        letter-spacing: 0.11em;
+        color: rgba(255, 255, 255, 0.54);
+
+        mix-blend-mode: screen;
+
+        /* M3/Elevation Light/2 */
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px rgba(0, 0, 0, 0.15);
+
+    }
+
+    #main1>section:nth-child(2)>h4{
+        position: absolute;
+        top: 2.7em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        letter-spacing: 0.11em;
+        color: white;
+        color: rgba(255, 255, 255, 0.54);
+        mix-blend-mode:screen;
+
+    }
+
+
+    #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(2){ /*issue*/
+        position: absolute;
+        right: 3em;
+        bottom: 7.2em;
+        margin: auto;
+        width: 400px;
+        height: 320px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        mix-blend-mode: normal;
+
+    }
+    #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
+        position: absolute;
+        right: 6.8em;
+        top: 22.5em;
+        width: 120px;
+        height: 37px;
+        transform: matrix(1, 0, -0.02, 1, 0, 0);
+        mix-blend-mode: normal;
+        filter: drop-shadow(-10px -8px 30px #FFC225);
+
+    }
+
 }
 
 
 @media (max-width: 375px) {
-    #main1 {
+    #main1>section:nth-child(1)>img:nth-child(2){
+        position: absolute;
+        top: -13em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 220px;
+        height: 225px;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+        transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
+
+    }
+    #main1>section:nth-child(1)>img:nth-child(1){
+        position: absolute;
+        top: -45em;
+        left: -5em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 395px;
+        height: 395px;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+        transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(3){
+        position: absolute;
+        top: -3em;
+        left: -12.5em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 75px;
+        height: auto;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(4){
+        position: absolute;
+        top: -4em;
+        left: 0em;
+        right: -16em;
+        bottom: 0;
+        margin: auto;
+        width: 70px;
+        height: auto;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+
+    }
+    #main1>section:nth-child(1)>img:nth-child(5){
+        position: absolute;
+        top: -21em;
+        left: -10em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 150px;
         height: auto;
     }
 
-    #main1 > section:nth-child(1) > img {
-        width: 120px; /* Adjust images for medium screen */
+    #main1>section:nth-child(1)>img:nth-child(6){
+        position: absolute;
+        top:20em;
+        left: 0em;
+        bottom: 0;
+        margin: auto;
+        width: 200px;
         height: auto;
     }
 
-    #main1 > section:nth-child(2) > h1 {
-        font-size: 32px; /* Adjust font size */
+    #main1>section:nth-child(1)>img:nth-child(7){
+        position: absolute;
+        top: -26em;
+        left: 12em;
+        bottom: 0;
+        margin: auto;
+        width: 30px;
+        height: auto;
+        filter: drop-shadow(17px 10px 30.6px #FFCBAE);
+
     }
 
-    #main1 > section:nth-child(2) > h4 {
-        font-size: 20px;
-    }
-
-    #main1 > section:nth-child(3) > div:nth-child(2) > img {
-        width: 175px;
+    #main1>section:nth-child(1)>img:nth-child(8){
+        position: absolute;
+        top: -37em;
+        left: 10em;
+        bottom: 0;
+        margin: auto;
+        width: 160px;
         height: auto;
     }
+
+
+
+
+    #main1>section:nth-child(2)>h1{
+        position: absolute;
+        top: 2.8em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        font-size: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        letter-spacing: 0.11em;
+        color: rgba(255, 255, 255, 0.54);
+
+        mix-blend-mode: screen;
+
+        /* M3/Elevation Light/2 */
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px rgba(0, 0, 0, 0.15);
+
+    }
+
+    #main1>section:nth-child(2)>h4{
+        position: absolute;
+        top: 2.7em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        letter-spacing: 0.11em;
+        color: white;
+        color: rgba(255, 255, 255, 0.54);
+        mix-blend-mode:screen;
+
+    }
+
+
+    #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(2){ /*issue*/
+        position: absolute;
+        right: 3em;
+        bottom: 7.2em;
+        margin: auto;
+        width: 400px;
+        height: 320px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        mix-blend-mode: normal;
+
+    }
+    #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
+        position: absolute;
+        right: 6.8em;
+        top: 22.5em;
+        width: 120px;
+        height: 37px;
+        transform: matrix(1, 0, -0.02, 1, 0, 0);
+        mix-blend-mode: normal;
+        filter: drop-shadow(-10px -8px 30px #FFC225);
+
+    }
+
 }
 
 
