@@ -816,11 +816,11 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(7){
         position: absolute;
-        top: -25.8em;
-        left: 11em;
+        top: -38.8em;
+        left: 18em;
         bottom: 0;
         margin: auto;
-        width: 35px;
+        width: 32px;
         height: auto;
         filter: drop-shadow(17px 10px 30.6px #FFCBAE);
 
@@ -828,11 +828,11 @@ header>nav>a{
 
     #main1>section:nth-child(1)>img:nth-child(8){
         position: absolute;
-        top: -38em;
+        top: -30em;
         left: 15em;
         bottom: 0;
         margin: auto;
-        width: 120px;
+        width: 125px;
         height: auto;
     }
 
@@ -862,7 +862,7 @@ header>nav>a{
 
     #main1>section:nth-child(2)>h4{
         position: absolute;
-        top: 5.7em;
+        top: 4.7em;
         left: 0;
         right: 0;
         bottom: 0;
