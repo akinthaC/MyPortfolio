@@ -740,7 +740,7 @@ header>nav>a{
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 425px) and (min-width: 375px){
     #main1>section:nth-child(1)>img:nth-child(2){
         position: absolute;
         top: -13em;
