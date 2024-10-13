@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
     background: #15212E ;
@@ -268,10 +269,13 @@ header>nav>a{
     display: flex;
     justify-content: space-evenly;
     color: white;
-    letter-spacing: 0.11em;
+    letter-spacing: 0.12em;
     color: rgba(255, 255, 255, 0.54);
 
     mix-blend-mode: screen;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-style: normal;
 
     /* M3/Elevation Light/2 */
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px rgba(0, 0, 0, 0.15);
@@ -287,10 +291,13 @@ header>nav>a{
     font-size: 60px;
     display: flex;
     justify-content: space-evenly;
-    letter-spacing: 0.11em;
+    letter-spacing: 0.13em;
     color: white;
     color: rgba(255, 255, 255, 0.54);
     mix-blend-mode:screen;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
 
 }
 
@@ -316,14 +323,8 @@ header>nav>a{
 
 }
 
-#main1>section:nth-child(3)>div:nth-child(2):hover{
-    #main1>section:nth-child(3)>div:nth-child(2){
 
-    }
-    mix-blend-mode: normal;
-}
-
-@media (max-width: 500px) {
+@media (max-width: 768px){
     /* Show the open button for small screens */
     .open-sider-button {
         display: flex;
@@ -406,15 +407,12 @@ header>nav>a{
 /* Base styles for desktop */
 
 /* Base styles for desktop */
-#main1 {
-    height: 803px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
 
 
-@media (max-width: 320px) and (min-width: 100px) {
+
+@media (max-width: 321px) and (min-width: 100px) {
+
+
     #main1>section:nth-child(1)>img:nth-child(2){
         position: absolute;
         top: -13em;
@@ -553,7 +551,7 @@ header>nav>a{
 
     #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(2){ /*issue*/
         display: flex;
-        justify-content: space-between;!important;
+        justify-content: space-evenly;!important;
         position: absolute;
         right: 1em;
         top: 25em;
@@ -567,7 +565,7 @@ header>nav>a{
     }
     #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
         display: flex;
-        justify-content: space-between;!important;
+        justify-content: space-evenly;!important;
         position: absolute;
         right: 4.8em;
         top: 27em;
@@ -583,7 +581,7 @@ header>nav>a{
 }
 
 
-@media (max-width: 375px)and (min-width: 320px){
+@media (max-width: 376px)and (min-width: 321px){
     #main1>section:nth-child(1)>img:nth-child(2){
         position: absolute;
         top: -13em;
@@ -722,7 +720,7 @@ header>nav>a{
 
     #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(2){ /*issue*/
         display: flex;
-        justify-content: space-between;!important;
+        justify-content: space-evenly;!important;
         position: absolute;
         right: 2em;
         top: 25em;
@@ -736,7 +734,7 @@ header>nav>a{
     }
     #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
         display: flex;
-        justify-content: space-between;!important;
+        justify-content: space-evenly;!important;
         position: absolute;
         right: 5.8em;
         top: 27em;
@@ -752,7 +750,7 @@ header>nav>a{
 }
 
 
-@media (max-width: 425px) and (min-width: 375px){
+@media (max-width: 426px) and (min-width: 376px){
     #main1>section:nth-child(1)>img:nth-child(2){
         position: absolute;
         top: -13em;
@@ -891,7 +889,7 @@ header>nav>a{
 
     #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(2){ /*issue*/
         display: flex;
-        justify-content: space-between;!important;
+        justify-content: space-evenly;!important;
         position: absolute;
         right: 4em;
         top: 25em;
@@ -905,7 +903,7 @@ header>nav>a{
     }
     #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
         display: flex;
-        justify-content: space-between;!important;
+        justify-content: space-evenly;!important;
         position: absolute;
         right: 7.8em;
         top: 27em;
@@ -919,3 +917,339 @@ header>nav>a{
 
 }
 
+
+@media (max-width: 768px) and (min-width: 426px){
+
+    #main1{
+
+        height: 1024px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    #main1>section:nth-child(1)>img:nth-child(2){
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 10em;
+        margin: auto;
+        width: 400px;
+        height: 395px;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+        transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
+
+    }
+    #main1>section:nth-child(1)>img:nth-child(1){
+        position: absolute;
+        top: -54em;
+        left: -12em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 550px;
+        height: 540px;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+        transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(3){
+        position: absolute;
+        top: 10em;
+        left: -21em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 150px;
+        height: auto;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(4){
+        position: absolute;
+        top: 8em;
+        left: 25em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 140px;
+        height: auto;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+
+    }
+    #main1>section:nth-child(1)>img:nth-child(5){
+        position: absolute;
+        top: -15em;
+        left: -8em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(6){
+        position: absolute;
+        top: 45em;
+        left: -3em;
+        bottom: 0;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(7){
+        position: absolute;
+        top: -52em;
+        left: 35em;
+        bottom: 0;
+        margin: auto;
+        width: 50px;
+        height: auto;
+        filter: drop-shadow(17px 10px 30.6px #FFCBAE);
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(8){
+        position: absolute;
+        top: -23em;
+        left: 25em;
+        bottom: 0;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+
+    #main1>section:nth-child(2)>h1{
+        position: absolute;
+        top: 1.7em;
+        justify-content: space-evenly;
+        font-size: 3.7em;
+        color: white;
+        letter-spacing: 0.12em;
+        color: rgba(255, 255, 255, 0.54);
+
+        mix-blend-mode: screen;
+        font-family: "Inter", serif;
+        font-weight: 500;
+        font-style: normal;
+
+        /* M3/Elevation Light/2 */
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px rgba(0, 0, 0, 0.15);
+
+    }
+
+    #main1>section:nth-child(2)>h4{
+        position: absolute;
+        top: 3.5em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 39px;
+        display: flex;
+        justify-content: space-evenly;
+        letter-spacing: 0.13em;
+        color: white;
+        color: rgba(255, 255, 255, 0.54);
+        mix-blend-mode:screen;
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(2){ /*issue*/
+        position: absolute;        /* Allows absolute positioning inside the container */
+        left: 40%;                 /* Horizontally center */
+        top: 100%;                  /* Vertically center */
+        width: 550px;
+        height: 470px;
+        transform: translate(-50%, -50%); /* Center based on its own dimensions */
+        mix-blend-mode: normal;
+    }
+    #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
+        display: flex;
+        justify-content: center; /* Horizontal alignment */
+        align-items: center;     /* Vertical alignment */
+        position: absolute;      /* Ensure it can be moved around the container */
+        left: 55%;               /* Move the image to the center horizontally */
+        top: 55%;                /* Move the image to the center vertically */
+        transform: translate(-50%, -50%); /* Adjust for the element's own width and height */
+        width: 183px;
+        mix-blend-mode: normal;
+        filter: drop-shadow(-10px -8px 30px #FFC225);
+
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    #main1>section:nth-child(1)>img:nth-child(2){
+        position: absolute;
+        top: -1em;
+        left: -10em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 500px;
+        height: 495px;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+        transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
+
+    }
+    #main1>section:nth-child(1)>img:nth-child(1){
+        position: absolute;
+        top: -55em;
+        left: -22em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 600px;
+        height: 595px;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+        transform: matrix(-0.38, -0.92, 0.91, -0.41, 0, 0);
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(3){
+        position: absolute;
+        top: 25em;
+        left: -32em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 160px;
+        height: auto;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(4){
+        position: absolute;
+        top: 25em;
+        left: 10em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 150px;
+        height: auto;
+        filter: drop-shadow(17px 16px 20.6px rgba(0, 0, 0, 0.25));
+
+    }
+    #main1>section:nth-child(1)>img:nth-child(5){
+        position: absolute;
+        top: -5em;
+        left: -18em;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 390px;
+        height: auto;
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(6){
+        position: absolute;
+        top: 10em;
+        left: 5em;
+        bottom: 0;
+        margin: auto;
+        width: 300px;
+        height: auto;
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(7){
+        position: absolute;
+        top: -22.7em;
+        left: 32em;
+        bottom: 0;
+        margin: auto;
+        width: 40px;
+        height: auto;
+        filter: drop-shadow(17px 10px 30.6px #FFCBAE);
+
+    }
+
+    #main1>section:nth-child(1)>img:nth-child(8){
+        position: absolute;
+        top: -28em;
+        left: 47em;
+        bottom: 0;
+        margin: auto;
+        width: 250px;
+        height: auto;
+    }
+
+    #main1>section:nth-child(2)>h1{
+        position: absolute;
+        top: 1.5em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        font-size: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        letter-spacing: 0.12em;
+        color: rgba(255, 255, 255, 0.54);
+
+        mix-blend-mode: screen;
+        font-family: "Inter", serif;
+        font-weight: 500;
+        font-style: normal;
+
+        /* M3/Elevation Light/2 */
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px rgba(0, 0, 0, 0.15);
+
+    }
+
+    #main1>section:nth-child(2)>h4{
+        position: absolute;
+        top: 2.5em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        letter-spacing: 0.13em;
+        color: white;
+        color: rgba(255, 255, 255, 0.54);
+        mix-blend-mode:screen;
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 600;
+        font-style: normal;
+
+    }
+
+    #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(2){ /*issue*/
+        position: absolute;
+        right: 2em;
+        bottom: 1em;
+        margin: auto;
+        width: 510px;
+        height: 450px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        mix-blend-mode: normal;
+
+
+
+    }
+    #main1>section:nth-child(3)>div:nth-child(2)>img:nth-child(1){
+        position: absolute;
+        right: 6em;
+        top: 20.5em;
+        width: 175px;
+        transform: matrix(1, 0, -0.02, 1, 0, 0);
+        mix-blend-mode: normal;
+        filter: drop-shadow(-10px -8px 30px #FFC225);
+
+    }
+
+
+
+}
