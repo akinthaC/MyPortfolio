@@ -354,7 +354,7 @@
     }
 }
 
-@media (max-width: 376px)and (min-width: 321px){
+@media (max-width: 376px)and (min-width: 320px){
     #main2:nth-child(3)>h2 {
         font-size: 32px;
     }
@@ -432,7 +432,7 @@
     #main2>#main2se2>p {
         font-size: 18px; /* Reduced font size */
         letter-spacing: 2px; /* Adjust letter spacing */
-        margin-top: -17.2em;
+        margin-top: -17em;
         position: static;
         margin-left: 0;
         margin-right: 0;
