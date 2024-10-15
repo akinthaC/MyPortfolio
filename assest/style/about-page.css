@@ -255,7 +255,7 @@
     #main2>#main2se2>h3 {
         font-size: 30px;
         position: static;
-        margin-top: 0.5em;
+        margin-top: -0.5em;
         margin-left: 0;
         margin-right: 0;
     }
@@ -265,7 +265,7 @@
     #main2>#main2se2>p {
         font-size: 20px;
         letter-spacing: 3px;
-        margin-top: 1em;
+        margin-top: 1.2em;
         position: static;
         margin-left: 0;
         margin-right: 0;
@@ -416,7 +416,7 @@
 
     #main2>#main2se2>div {
         width: 200px;
-        top: 13.1em;
+        top: 12.1em;
         right: 0;
         left: 0;
         bottom: 0;
@@ -424,7 +424,7 @@
     }
 
     #main2>#main2se2>img {
-        top: 9em;
+        top: 8em;
         right: 0;
         left: 0;
         bottom: 0;
@@ -443,7 +443,7 @@
     #main2>#main2se2>h3 {
         font-size: 30px;
         position: static;
-        margin-top: 0.5em;
+        margin-top: -0.5em;
         margin-left: 0;
         margin-right: 0;
     }
@@ -536,7 +536,7 @@
     #main2>#main2se2>h3 {
         font-size: 30px;
         position: static;
-        margin-top: 0.5em;
+        margin-top: 0.3em;
         margin-left: 0;
         margin-right: 0;
     }
