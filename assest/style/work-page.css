@@ -300,6 +300,7 @@
         justify-items: center; /* Center items horizontally */
         align-items: center; /* Center items vertically */
         padding: 20px 0;
+        column-gap: 10em;
     }
 
     /* Main container adjustments */
@@ -338,7 +339,7 @@
     .box {
         width: 280px;
         height: 340px;
-        margin: 10px 0; /* Center and add vertical spacing */
+        margin: 50px 0; /* Center and add vertical spacing */
     }
 
     /* Adjusting the background effect on hover */
@@ -415,7 +416,7 @@
     .box {
         width: 280px;
         height: 340px;
-        margin: 10px 0; /* Center and add vertical spacing */
+        margin: 50px 0; /* Center and add vertical spacing */
     }
 
     /* Adjusting the background effect on hover */
@@ -493,7 +494,7 @@
     .box {
         width: 240px; /* Smaller box width */
         height: 300px; /* Adjusted box height */
-        margin: 15px 0; /* Center and add vertical spacing */
+        margin: 40px 0; /* Center and add vertical spacing */
     }
 
     /* Adjusting the background effect on hover */
@@ -570,7 +571,7 @@
     .box {
         width: 200px; /* Smaller box width */
         height: 280px; /* Adjusted box height */
-        margin: 10px 0; /* Center and add vertical spacing */
+        margin: 30px 0; /* Center and add vertical spacing */
     }
 
     /* Adjusting the background effect on hover */
