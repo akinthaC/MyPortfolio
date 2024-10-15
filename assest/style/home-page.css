@@ -872,11 +872,11 @@ header>nav>a{
 
     #main1>section:nth-child(2)>h4{
         position: absolute;
-        top: 2.7em;
+        top: 3.3em;
         left: 0;
         right: 0;
         bottom: 0;
-        font-size: 30px;
+        font-size: 29px;
         display: flex;
         justify-content: space-evenly;
         letter-spacing: 0.11em;
