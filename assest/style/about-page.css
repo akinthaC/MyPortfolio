@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 /* General Styles for Larger Screens */
 #main2:nth-child(3)>h2 {
     font-size: 55px;
@@ -8,6 +12,10 @@
 }
 
 #main2>#main2se1>h3 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    margin-right: 15em;
     font-size: 35px;
     color: white;
     margin-top: 2em;
@@ -49,29 +57,63 @@
 
 #main2>#main2se2>div {
     position: absolute;
-    width: 400px;
+    width: 340px;
     aspect-ratio: 1/1;
     border-radius: 500px;
-    top: 10em;
-    right: 10em;
+    top: 15em;
+    right: 14.2em;
     background: #D9D9D9;
     mix-blend-mode: soft-light;
 }
 
 #main2>#main2se2>img {
     position: absolute;
-    top: 9em;
-    right: 15em;
-    width: 18em;
+    top: 1.59em;
+    right: 12.5em;
+    width: 26em;
     border-radius: 100px;
+    background-size: cover;
+
+
 }
+#main2>#main2se2>p{
+    position: absolute;
+    top: 2.8em;
+    right: 15.8em;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+    mix-blend-mode: screen;
+    font-family: "Inter", serif;
+
+    font-style: normal;
+}
+
 
 #main2>#main2se2>h3 {
     position: absolute;
-    top: 1em;
-    right: 3.8em;
-    color: white;
-    font-size: 50px;
+    top: 1.7em;
+    right: 4em;
+    font-size: 60px;
+    line-height: 1.2em;
+    letter-spacing: 5px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-family: "Istok Web", sans-serif;
+    font-style: normal;
+
+    background: url("/assest/images/back.png"); /* Ensure the correct image path */
+    background-size: cover; /* Ensure the background covers the text */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* Ensure it works across browsers */
+    -webkit-text-fill-color: transparent; /* Ensure the text color is transparent */
+    background-position:0 0 ;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back {
+    100% {
+        background-position: 800px 0; }
 }
 
 /* Media Query for Laptop Screens (1024px width) */
@@ -99,19 +141,127 @@
     }
 
     #main2>#main2se2>div {
-        width: 300px; /* Reduced size for the circle */
-        top: 10em; /* Adjusted position */
-        right: 8em; /* Adjusted position */
+        width: 245px; /* Reduced size for the circle */
+        top: 14em; /* Adjusted position */
+        right:5em; /* Adjusted position */
     }
 
     #main2>#main2se2>img {
-        top: 7em; /* Adjusted position for image */
-        right: 8em; /* Adjusted position */
-        width: 16em; /* Smaller image size */
+        top: 3.95em; /* Adjusted position for image */
+        right: 3.5em; /* Adjusted position */
+        width: 19em; /* Smaller image size */
+        object-fit: cover;
+        height: auto;
     }
 
     #main2>#main2se2>h3 {
         font-size: 40px; /* Reduced heading size */
         right: 2em; /* Adjusted position */
+        top: 3em;
     }
+    #main2>#main2se2>p{
+
+        top: 4em;
+        right: 9.4em;
+        font-size: 25px;
+        letter-spacing: 5px;
+        mix-blend-mode: screen;
+        font-family: "Inter", serif;
+        font-style: normal;
+    }
+
 }
+
+
+@media only screen and (max-width: 768px) {
+    #main2:nth-child(3)>h2 {
+        font-size: 38px; /* Adjusted heading size for tablet screens */
+    }
+
+    #main2>#main2se1>h3 {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2em;
+        font-size: 25px;
+        line-height: 2.5rem;
+    }
+
+    #main2>#main2se1>h3>span {
+        display: block;
+        margin-top: 0.5em;
+    }
+
+    #main2>#main2se1>p {
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        font-size: 15px; /* Reduced font size for paragraphs */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 80px;
+        text-align: justify;
+    }
+
+    #main2>#main2se1>button {
+        position: absolute;
+        top: 49em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 8em;
+        height: 2.5em;
+
+    }
+
+    #main2>#main2se2>div {
+        width: 200px; /* Smaller size for the circle */
+        top: 13.1em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #main2>#main2se2>img {
+        top: 9em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 16em; /* Smaller image size */
+        object-fit: cover;
+        height: auto;
+    }
+    #main2>#main2se2 {
+        text-align: center; /* Center align all content */
+        position: relative; /* Ensure the section content is positioned correctly */
+    }
+
+
+    #main2>#main2se2>h3 {
+        font-size: 30px; /* Adjust font size for tablets */
+        position: static; /* Remove absolute positioning */
+        margin-top: 0.5em; /* Add top margin for spacing */
+        margin-left: 0; /* Ensure it's centered */
+        margin-right: 0; /* Ensure it's centered */
+    }
+
+
+
+    #main2>#main2se2>p {
+        font-size: 20px; /* Adjust font size for tablets */
+        letter-spacing: 3px; /* Adjust letter spacing */
+        margin-top: 1em; /* Add margin for spacing */
+        position: static; /* Remove absolute positioning */
+        margin-left: 0; /* Ensure it's centered */
+        margin-right: 0; /* Ensure it's centered */
+    }
+
+
+
+}
+
