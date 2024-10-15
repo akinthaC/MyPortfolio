@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 #main3{
@@ -105,11 +106,14 @@
     background: linear-gradient(315deg, #0a1c93, #940d0d);
 }
 #main3>h2{
-    font-size: 55px;
-    font-weight: bold;
+    font-size: 48px;
     color: white;
     display: flex;
     justify-content: space-evenly;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 5px;
 
 }
 
@@ -199,16 +203,404 @@
     }
 
 }
+#main3-img img:nth-child(1) {
+    position: relative;
+    width: 190px;
+    top: -20em;
+    left: -2.5em;
+}
 
-@media all and (min-width: 200px ) and (max-width: 1000px){
-    #main3>#main3se1{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        padding: 10px 10px;
-        justify-content: center;
+#main3-img img:nth-child(2) {
+    position: relative;
+    width: 40px;
+    top: -40em;
+    left: 35em;
+}
 
+#main3-img img:nth-child(3) {
+    position: relative;
+    top: -30em;
+    left: -50em;
+    width: 190px;
+}
+
+@media (max-width: 1024px) and (min-width: 769px)  {
+    #main3 {
+        margin-top: 0.5em;
     }
-    #main3>#main3se1>section {
-        margin: 1em auto;
+
+    /* Adjustments for .content inside .box */
+    .content {
+        padding: 15px 30px;
+    }
+
+    .box:hover .content {
+        left: -15px;
+        padding: 50px 30px;
+    }
+
+    /* Adjust heading and paragraph font sizes */
+    .content>h4 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
+    .content>p {
+        font-size: 1em;
+        line-height: 1.3em;
+    }
+
+    /* Button adjustments */
+    .content>a {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    /* Adjust .box size */
+    .box {
+        width: 300px;
+        height: 380px;
+        margin: 40px 100px;
+    }
+
+    /* Adjusting the background effect on hover */
+    .box:hover:before,
+    .box:hover:after {
+        width: calc(100% - 70px);
+    }
+
+    /* Media query adjustments for images */
+    #main3-img img:nth-child(1) {
+        position: relative;
+        width: 150px; /* Smaller image */
+        top: -18em;
+        left: -2em;
+    }
+
+    #main3-img img:nth-child(2) {
+        position: relative;
+        width: 35px; /* Smaller second image */
+        top: -38em;
+        left: 28em; /* Adjusted left position */
+    }
+
+    #main3-img img:nth-child(3) {
+        position: relative;
+        top: -28em;
+        left: -42em;
+        width: 150px; /* Adjusted width for third image */
+    }
+
+}
+
+@media (max-width: 1002px) and (min-width: 769px){
+    #main3>#main3se1 {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column */
+        justify-items: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        padding: 20px 0;
+    }
+
+    /* Main container adjustments */
+    #main3 {
+        margin-top: 1em;
+    }
+
+    /* Adjustments for .content inside .box */
+    .content {
+        padding: 10px 20px;
+    }
+
+    .box:hover .content {
+        left: -10px;
+        padding: 40px 10px;
+    }
+
+    /* Adjust heading and paragraph font sizes */
+    .content>h4 {
+        font-size: 1.2em;
+        margin-bottom: 18px;
+    }
+
+    .content>p {
+        font-size: 0.9em;
+        line-height: 1.2em;
+    }
+
+    /* Button adjustments */
+    .content>a {
+        font-size: 0.9em;
+        padding: 7px;
+    }
+
+    /* Adjust .box size */
+    .box {
+        width: 280px;
+        height: 340px;
+        margin: 10px 0; /* Center and add vertical spacing */
+    }
+
+    /* Adjusting the background effect on hover */
+    .box:hover:before,
+    .box:hover:after {
+        width: calc(100% - 60px);
+    }
+
+    /* Media query adjustments for images */
+    #main3-img img:nth-child(1) {
+        position: relative;
+        width: 120px; /* Smaller image */
+        top: -16em;
+        left: -1.5em;
+    }
+
+    #main3-img img:nth-child(2) {
+        position: relative;
+        width: 30px; /* Smaller second image */
+        top: -34em;
+        left: 22em; /* Adjusted left position */
+    }
+
+    #main3-img img:nth-child(3) {
+        position: relative;
+        top: -24em;
+        left: -35em;
+        width: 120px; /* Adjusted width for third image */
     }
 }
+
+@media (max-width: 768px) and (min-width: 426px){
+    #main3>#main3se1 {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column */
+        justify-items: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        padding: 20px 0;
+    }
+
+    /* Main container adjustments */
+    #main3 {
+        margin-top: 1em;
+    }
+
+    /* Adjustments for .content inside .box */
+    .content {
+        padding: 10px 20px;
+    }
+
+    .box:hover .content {
+        left: -10px;
+        padding: 40px 10px;
+    }
+
+    /* Adjust heading and paragraph font sizes */
+    .content>h4 {
+        font-size: 1.2em;
+        margin-bottom: 18px;
+    }
+
+    .content>p {
+        font-size: 0.9em;
+        line-height: 1.2em;
+    }
+
+    /* Button adjustments */
+    .content>a {
+        font-size: 0.9em;
+        padding: 7px;
+    }
+
+    /* Adjust .box size */
+    .box {
+        width: 280px;
+        height: 340px;
+        margin: 10px 0; /* Center and add vertical spacing */
+    }
+
+    /* Adjusting the background effect on hover */
+    .box:hover:before,
+    .box:hover:after {
+        width: calc(100% - 60px);
+    }
+
+    /* Media query adjustments for images */
+    #main3-img img:nth-child(1) {
+        position: relative;
+        width: 120px; /* Smaller image */
+        top: -16em;
+        left: -1.5em;
+    }
+
+    #main3-img img:nth-child(2) {
+        position: relative;
+        width: 30px; /* Smaller second image */
+        top: -34em;
+        left: 22em; /* Adjusted left position */
+    }
+
+    #main3-img img:nth-child(3) {
+        position: relative;
+        top: -24em;
+        left: -35em;
+        width: 120px; /* Adjusted width for third image */
+    }
+
+}
+
+@media (max-width: 426px) and (min-width: 376px){
+    #main3>#main3se1 {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column */
+        justify-items: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        padding: 20px 0;
+    }
+
+    /* Main container adjustments */
+    #main3 {
+        margin-top: 1em;
+    }
+
+    /* Adjustments for .content inside .box */
+    .content {
+        padding: 10px 15px; /* Smaller padding for mobile */
+    }
+
+    .box:hover .content {
+        left: -5px;
+        padding: 40px 20px;
+    }
+
+    /* Adjust heading and paragraph font sizes */
+    .content>h4 {
+        font-size: 1em; /* Smaller font size */
+        margin-bottom: 15px;
+    }
+
+    .content>p {
+        font-size: 0.8em;
+        line-height: 1.2em;
+    }
+
+    /* Button adjustments */
+    .content>a {
+        font-size: 0.8em;
+        padding: 5px 10px; /* Smaller button size */
+    }
+
+    /* Adjust .box size */
+    .box {
+        width: 240px; /* Smaller box width */
+        height: 300px; /* Adjusted box height */
+        margin: 15px 0; /* Center and add vertical spacing */
+    }
+
+    /* Adjusting the background effect on hover */
+    .box:hover:before,
+    .box:hover:after {
+        width: calc(100% - 40px); /* Reduce hover width */
+    }
+
+    /* Media query adjustments for images */
+    #main3-img img:nth-child(1) {
+        position: relative;
+        width: 100px; /* Smaller image */
+        top: -12em;
+        left: -1.5em;
+    }
+
+    #main3-img img:nth-child(2) {
+        position: relative;
+        width: 25px; /* Smaller second image */
+        top: -28em;
+        left: 20em; /* Adjusted left position */
+    }
+
+    #main3-img img:nth-child(3) {
+        position: relative;
+        top: -20em;
+        left: -30em;
+        width: 100px; /* Adjusted width for third image */
+    }
+}
+
+@media (max-width: 376px)and (min-width: 219px){
+    #main3>#main3se1 {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        justify-items: center; /* Horizontally center the boxes */
+        align-items: center; /* Vertically center the boxes */
+        padding: 10px 0;
+    }
+
+    /* Main container adjustments */
+    #main3 {
+        margin-top: 1em;
+    }
+
+    /* Adjustments for .content inside .box */
+    .content {
+        padding: 8px 10px; /* Smaller padding for small mobile */
+    }
+
+    .box:hover .content {
+        left: 0;
+        padding: 30px 15px;
+    }
+
+    /* Adjust heading and paragraph font sizes */
+    .content>h4 {
+        font-size: 0.9em; /* Smaller font size for small mobile */
+        margin-bottom: 10px;
+    }
+
+    .content>p {
+        font-size: 0.7em;
+        line-height: 1.1em;
+    }
+
+    /* Button adjustments */
+    .content>a {
+        font-size: 0.7em;
+        padding: 5px 8px; /* Smaller button size for small mobile */
+    }
+
+    /* Adjust .box size */
+    .box {
+        width: 200px; /* Smaller box width */
+        height: 280px; /* Adjusted box height */
+        margin: 10px 0; /* Center and add vertical spacing */
+    }
+
+    /* Adjusting the background effect on hover */
+    .box:hover:before,
+    .box:hover:after {
+        width: calc(100% - 30px); /* Further reduce hover width */
+    }
+
+    /* Media query adjustments for images */
+    #main3-img img:nth-child(1) {
+        position: relative;
+        width: 80px; /* Smaller image */
+        top: -10em;
+        left: -1em;
+    }
+
+    #main3-img img:nth-child(2) {
+        position: relative;
+        width: 20px; /* Smaller second image */
+        top: -25em;
+        left: 15em; /* Adjusted left position */
+    }
+
+    #main3-img img:nth-child(3) {
+        position: relative;
+        top: -18em;
+        left: -25em;
+        width: 80px; /* Adjusted width for third image */
+    }
+}
+
+
+

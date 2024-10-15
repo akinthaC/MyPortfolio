@@ -5,7 +5,7 @@
 
 /* General Styles for Larger Screens */
 #main2:nth-child(3)>h2 {
-    font-size: 55px;
+    font-size: 50px;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -116,6 +116,10 @@
     background-position:0 0 ;
     animation: back 20s linear infinite;
 }
+
+
+
+
 
 @keyframes back {
     100% {
