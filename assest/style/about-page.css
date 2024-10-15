@@ -50,7 +50,7 @@
     letter-spacing: 0.19em;
 }
 
-#main2>#main2se1>button {
+#main2button {
     width: 12em;
     height: 3.5em;
     margin-left: 16em;
@@ -139,7 +139,7 @@
         margin-right: 27em; /* Reduced right margin for more space */
     }
 
-    #main2>#main2se1>button {
+    #main2button {
         width: 10em; /* Smaller button width */
         height: 3em; /* Smaller button height */
         margin-left: 12em; /* Adjusted button margin */
@@ -178,8 +178,10 @@
 
 }
 
-
 @media (max-width: 768px) and (min-width: 426px) {
+    #main2{
+        margin-bottom: 25em;
+    }
     #main2:nth-child(3)>h2 {
         font-size: 38px; /* Adjusted heading size for tablet screens */
     }
@@ -211,15 +213,16 @@
         text-align: justify;
     }
 
-    #main2>#main2se1>button {
+    #main2button {
         position: absolute;
-        top: 49em;
+        top: 10em;
         right: 0;
         left: 0;
         bottom: 0;
         margin: auto;
         width: 8em;
         height: 2.5em;
+        margin-top:12em ;
 
     }
 
@@ -242,6 +245,7 @@
         object-fit: cover;
         height: auto;
     }
+
     #main2>#main2se2 {
         text-align: center;
         position: relative;
@@ -270,6 +274,10 @@
 
 
 @media (max-width: 426px) and (min-width: 376px) {
+    #main2{
+        margin-bottom: 25em;
+    }
+
     #main2:nth-child(3)>h2 {
         font-size: 32px;
     }
@@ -300,20 +308,22 @@
         text-align: justify; /* Maintain justified text */
     }
 
-    #main2>#main2se1>button {
-        position: relative; /* Removed absolute positioning for better control */
-        margin-top: -32em;
-        width: 7em; /* Slightly smaller button */
-        height: 2.2em; /* Adjusted height */
-        margin-left: auto;
-        margin-right: auto; /* Center button */
-        display: block;
+    #main2button {
+        position: absolute;
+        top: 10em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 8em;
+        height: 2.5em;
+        margin-top:12em ;
 
     }
 
     #main2>#main2se2>div {
-        width: 150px; /* Smaller circle size for mobile */
-        top: 10.5em; /* Adjusted top positioning */
+        width: 200px;
+        top: 13.1em;
         right: 0;
         left: 0;
         bottom: 0;
@@ -321,12 +331,12 @@
     }
 
     #main2>#main2se2>img {
-        top: 7em; /* Adjusted position */
+        top: 9em;
         right: 0;
         left: 0;
         bottom: 0;
         margin: auto;
-        width: 13em; /* Smaller image size */
+        width: 16em;
         object-fit: cover;
         height: auto;
     }
@@ -336,25 +346,31 @@
         position: relative;
     }
 
+
     #main2>#main2se2>h3 {
-        font-size: 24px; /* Adjust font size for h3 */
+        font-size: 30px;
         position: static;
-        margin-top: -0.5em; /* Adjusted top margin */
+        margin-top: 0.5em;
         margin-left: 0;
         margin-right: 0;
     }
 
+
+
     #main2>#main2se2>p {
-        font-size: 18px; /* Reduced font size */
-        letter-spacing: 2px; /* Adjust letter spacing */
-        margin-top: 27em;
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: 1em;
         position: static;
         margin-left: 0;
         margin-right: 0;
     }
 }
 
-@media (max-width: 376px)and (min-width: 320px){
+@media (max-width: 376px)and (min-width: 321px){
+    #main2{
+        margin-bottom: 25em;
+    }
     #main2:nth-child(3)>h2 {
         font-size: 32px;
     }
@@ -385,20 +401,22 @@
         text-align: justify; /* Maintain justified text */
     }
 
-    #main2>#main2se1>button {
-        position: relative; /* Removed absolute positioning for better control */
-        margin-top: 17em;
-        width: 7em; /* Slightly smaller button */
-        height: 2.2em; /* Adjusted height */
-        margin-left: auto;
-        margin-right: auto; /* Center button */
-        display: block;
+    #main2button {
+        position: absolute;
+        top: 10em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 8em;
+        height: 2.5em;
+        margin-top:12em ;
 
     }
 
     #main2>#main2se2>div {
-        width: 150px; /* Smaller circle size for mobile */
-        top: 10.5em; /* Adjusted top positioning */
+        width: 200px;
+        top: 13.1em;
         right: 0;
         left: 0;
         bottom: 0;
@@ -406,12 +424,12 @@
     }
 
     #main2>#main2se2>img {
-        top: 7em; /* Adjusted position */
+        top: 9em;
         right: 0;
         left: 0;
         bottom: 0;
         margin: auto;
-        width: 13em; /* Smaller image size */
+        width: 16em;
         object-fit: cover;
         height: auto;
     }
@@ -421,24 +439,118 @@
         position: relative;
     }
 
+
     #main2>#main2se2>h3 {
-        font-size: 24px; /* Adjust font size for h3 */
+        font-size: 30px;
         position: static;
-        margin-top: -0.5em; /* Adjusted top margin */
+        margin-top: 0.5em;
         margin-left: 0;
         margin-right: 0;
     }
 
+
+
     #main2>#main2se2>p {
-        font-size: 18px; /* Reduced font size */
-        letter-spacing: 2px; /* Adjust letter spacing */
-        margin-top: -17em;
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: 1em;
         position: static;
         margin-left: 0;
         margin-right: 0;
     }
 }
 
+@media (max-width: 320px)and (min-width: 100px){
+    #main2{
+        margin-bottom: 25em;
+    }
+    #main2:nth-child(3)>h2 {
+        font-size: 32px;
+    }
 
+    #main2>#main2se1>h3 {
+        text-align: center;
+
+        font-size: 22px; /* Reduce font size for mobile */
+        line-height: 2rem; /* Adjust line height */
+        margin: 40px 50px;
+    }
+
+    #main2>#main2se1>h3>span {
+        display: block;
+        margin-top: 0.3em; /* Maintain space between text and span */
+    }
+
+    #main2>#main2se1>p {
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        font-size: 14px; /* Reduced font size for paragraphs */
+        display: flex;
+        justify-content: center; /* Adjust centering */
+        align-items: center;
+        margin: 0 40px; /* Reduced margins for smaller screens */
+        text-align: justify; /* Maintain justified text */
+    }
+
+    #main2button {
+        position: absolute;
+        top: 10em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 8em;
+        height: 2.5em;
+        margin-top:12em ;
+
+    }
+
+    #main2>#main2se2>div {
+        width: 200px;
+        top: 13.1em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #main2>#main2se2>img {
+        top: 9em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 16em;
+        object-fit: cover;
+        height: auto;
+    }
+
+    #main2>#main2se2 {
+        text-align: center;
+        position: relative;
+    }
+
+
+    #main2>#main2se2>h3 {
+        font-size: 30px;
+        position: static;
+        margin-top: 0.5em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+    #main2>#main2se2>p {
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: 1em;
+        position: static;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
 
 
