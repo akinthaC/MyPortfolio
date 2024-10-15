@@ -1,19 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 /* General Styles for Larger Screens */
 #main2:nth-child(3)>h2 {
     font-size: 55px;
-    font-weight: bold;
     color: white;
     display: flex;
     justify-content: space-evenly;
+    mix-blend-mode: screen;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 5px;
+
 }
 
 #main2>#main2se1>h3 {
     font-family: "Istok Web", sans-serif;
-    font-weight: 50;
+    font-weight: 800;
     font-style: normal;
     margin-right: 15em;
     font-size: 35px;
@@ -218,7 +224,7 @@
     }
 
     #main2>#main2se2>div {
-        width: 200px; /* Smaller size for the circle */
+        width: 200px;
         top: 13.1em;
         right: 0;
         left: 0;
@@ -232,36 +238,119 @@
         left: 0;
         bottom: 0;
         margin: auto;
-        width: 16em; /* Smaller image size */
+        width: 16em;
         object-fit: cover;
         height: auto;
     }
     #main2>#main2se2 {
-        text-align: center; /* Center align all content */
-        position: relative; /* Ensure the section content is positioned correctly */
+        text-align: center;
+        position: relative;
     }
 
 
     #main2>#main2se2>h3 {
-        font-size: 30px; /* Adjust font size for tablets */
-        position: static; /* Remove absolute positioning */
-        margin-top: 0.5em; /* Add top margin for spacing */
-        margin-left: 0; /* Ensure it's centered */
-        margin-right: 0; /* Ensure it's centered */
+        font-size: 30px;
+        position: static;
+        margin-top: 0.5em;
+        margin-left: 0;
+        margin-right: 0;
     }
 
 
 
     #main2>#main2se2>p {
-        font-size: 20px; /* Adjust font size for tablets */
-        letter-spacing: 3px; /* Adjust letter spacing */
-        margin-top: 1em; /* Add margin for spacing */
-        position: static; /* Remove absolute positioning */
-        margin-left: 0; /* Ensure it's centered */
-        margin-right: 0; /* Ensure it's centered */
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: 1em;
+        position: static;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    #main2:nth-child(3)>h2 {
+        font-size: 32px;
     }
 
+    #main2>#main2se1>h3 {
+        text-align: center;
 
+        font-size: 22px; /* Reduce font size for mobile */
+        line-height: 2rem; /* Adjust line height */
+        margin: 40px 50px;
+    }
 
+    #main2>#main2se1>h3>span {
+        display: block;
+        margin-top: 0.3em; /* Maintain space between text and span */
+    }
+
+    #main2>#main2se1>p {
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        font-size: 14px; /* Reduced font size for paragraphs */
+        display: flex;
+        justify-content: center; /* Adjust centering */
+        align-items: center;
+        margin: 0 40px; /* Reduced margins for smaller screens */
+        text-align: justify; /* Maintain justified text */
+    }
+
+    #main2>#main2se1>button {
+        position: relative; /* Removed absolute positioning for better control */
+        margin-top: -32em;
+        width: 7em; /* Slightly smaller button */
+        height: 2.2em; /* Adjusted height */
+        margin-left: auto;
+        margin-right: auto; /* Center button */
+        display: block;
+    }
+
+    #main2>#main2se2>div {
+        width: 150px; /* Smaller circle size for mobile */
+        top: 10.5em; /* Adjusted top positioning */
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #main2>#main2se2>img {
+        top: 7em; /* Adjusted position */
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 13em; /* Smaller image size */
+        object-fit: cover;
+        height: auto;
+    }
+
+    #main2>#main2se2 {
+        text-align: center;
+        position: relative;
+    }
+
+    #main2>#main2se2>h3 {
+        font-size: 24px; /* Adjust font size for h3 */
+        position: static;
+        margin-top: -0.5em; /* Adjusted top margin */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #main2>#main2se2>p {
+        font-size: 18px; /* Reduced font size */
+        letter-spacing: 2px; /* Adjust letter spacing */
+        margin-top: 27em;
+        position: static;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
+
 
