@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+#main6>h2{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 5px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+#educationSec{
+
+    padding: 0 5%;
+    position: relative;
+    height: auto;
+}
+
+.timeLine{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    padding: 10px 50px;
+    position: relative;
+    width: 42%;
+}
+
+.cardText{
+    position: relative;
+    padding: 20px 10px;
+    background-color: transparent;
+    border-radius: 2em;
+    font-size: 15px;
+    border: 0.2em solid black;
+    height: 12em;
+}
+
+.cardText::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    mix-blend-mode: overlay;
+    z-index: 0;
+    border-radius: 2em;
+}
+
+.right-card{
+    left: 50%;
+}
+
+.left-card{
+    right: 0%;
+}
+
+.content-edu{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: yellow;
+    right: -16px;
+    top: 32px;
+    z-index: 1;
+    box-shadow: 0px 0px 70px rgb(210, 208, 29);
+}
+
+.right-card .content-edu{
+    left: -20px;
+}
+
+
+.timeLine::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 0;
+}
+
+
+
+.topic{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+
+}
+
+.cardText>p{
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.cardText>h3{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.cardText>h3>span{
+    color: yellow;
+}
+
+/*
+@media (max-width: 1024px) {
+    #main6>h2 {
+        font-size: 35px;
+    }
+
+    .card {
+        width: 80%;
+        padding: 10px 30px;
+        margin: 20px 0;
+    }
+
+    .cardText {
+        height: auto;
+        font-size: 14px;
+    }
+
+    .right-card {
+        left: 0;
+        margin-left: 0; !* Remove margin to fix positioning *!
+    }
+
+    .left-card {
+        right: 0;
+        margin-right: 0;
+    }
+
+    .content-edu {
+        width: 30px;
+        height: 30px;
+    }
+
+    .timeLine::after {
+        left: 50%;
+    }
+}
+
+!* Media Queries for Smaller Laptops and Tablets (max-width: 768px) *!
+@media (max-width: 768px) {
+    #main6>h2 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 100%; !* Full width for small screens *!
+        padding: 15px 20px;
+    }
+
+    .content-edu {
+        width: 25px;
+        height: 25px;
+    }
+
+    .right-card {
+        left: 0%;
+    }
+
+    .left-card {
+        right: 0%;
+    }
+
+    .timeLine::after {
+        left: 50%;
+    }
+}
+*/

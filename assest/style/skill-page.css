@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+#main7>h2{
+    margin-top: 2em;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 5px;
+    margin-bottom: 1em;
+}
+
+#main7>span{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+    font-family: "Inter", serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 5px;
+    margin-bottom: 0.2em;
+}
+#main7>#main7se1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main7se1>#id1{
+    width: 70%;
+    height: 10em;
+    border: 0.1em solid black;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+
+}
+
+#main7se1>#id1>div{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 0em;
+    row-gap: 2em;
+}
+
+#main7se1>#id1>div>img{
+    width: 40%;
+}
+
+#main7>#main7se2>span{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+    font-family: "Inter", serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 5px;
+    margin-bottom: 0.2em;
+}
+
+#main7>#main7se2>#main7se2d1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#main7>#main7se2>#main7se2d1>div{
+    width: 40%;
+    height: 25em;
+    border: 0.1em solid black;
+    padding: 1em;
+    color: white;
+}
+
+#main7>#main7se2>#main7se2d1>div>b{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+#main7>#main7se2>#main7se2d1>div>p{
+    margin-left: 2em;
+    font-family: "Inter", serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1024px) {
+    #main7>h2 {
+        font-size: 30px;  /* Reduce the font size for tablet */
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    #main7>span {
+        font-size: 20px;  /* Adjust the subheading font size */
+        letter-spacing: 2px;
+    }
+
+    #main7>#main7se1 {
+        display: flex;
+        justify-content: center; /* Align the content for smaller screens */
+        flex-direction: column;  /* Stack icons vertically */
+        align-items: center;
+    }
+
+    #main7se1>#id1 {
+        width: 90%;  /* Reduce width for better fit */
+        height: auto;  /* Let height adjust automatically */
+    }
+
+    #main7se1>#id1>div {
+        grid-template-columns: repeat(4, 1fr);  /* Adjust to 4 icons per row */
+        column-gap: 0em;
+    }
+
+    #main7se1>#id1>div>img {
+        width: 30%;  /* Reduce icon size */
+    }
+
+    #main7>#main7se2>span {
+        font-size: 20px;  /* Adjust font size for Soft Skills */
+        letter-spacing: 3px;
+        margin-top: 0.5em;
+    }
+
+    #main7>#main7se2>#main7se2d1 {
+        display: flex;
+        flex-direction: column;  /* Stack Soft Skills vertically */
+        align-items: center;
+    }
+
+    #main7>#main7se2>#main7se2d1>div {
+        width: 80%;  /* Expand the div width */
+        height: auto;  /* Allow height to adjust automatically */
+        padding: 1em;
+    }
+
+    #main7>#main7se2>#main7se2d1>div>b {
+        font-size: 1.1em;  /* Adjust heading size */
+    }
+
+    #main7>#main7se2>#main7se2d1>div>p {
+        margin-left: 1em;  /* Adjust padding */
+        font-size: 0.9em;  /* Adjust paragraph font size */
+    }
+}
+
+
+@media (max-width: 768px) {
+    #main7>h2 {
+        font-size: 25px;
+    }
+
+    #main7>span {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    #main7se1>#id1 {
+        width: 90%;  /* Adjust the container to fit smaller screens */
+    }
+
+    #main7se1>#id1>div {
+        grid-template-columns: repeat(3, 1fr);  /* Three icons per row */
+    }
+
+    #main7se1>#id1>div>img {
+        width: 25%;  /* Further reduce icon size */
+    }
+
+    #main7>#main7se2>#main7se2d1>div {
+        width: 80%;  /* Full width for Soft Skills section */
+    }
+}
+
+/* For devices with a screen width of 480px and below */
+@media (max-width: 480px) {
+    #main7>h2 {
+        font-size: 22px;  /* Smaller font size for the main heading */
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    #main7>span {
+        font-size: 16px;  /* Reduce the subheading font size */
+        letter-spacing: 1px;
+    }
+
+    #main7>#main7se1 {
+        display: flex;
+        flex-direction: column;  /* Stack the icons vertically */
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main7se1>#id1 {
+        width: 80%;  /* Full width on mobile */
+        height: auto;  /* Height adjusts based on content */
+        padding: 1em;  /* Add padding for better spacing */
+    }
+
+    #main7se1>#id1>div {
+        grid-template-columns: repeat(2, 1fr);  /* Two icons per row */
+        column-gap: 0.5em;  /* Add some gap between columns */
+        row-gap: 1em;  /* Reduce gap between rows */
+    }
+
+    #main7se1>#id1>div>img {
+        width: 30%;  /* Increase the size of each icon for visibility */
+    }
+
+    #main7>#main7se2>span {
+        font-size: 18px;  /* Reduce font size for Soft Skills heading */
+        letter-spacing: 2px;
+    }
+
+    #main7>#main7se2>#main7se2d1 {
+        display: flex;
+        flex-direction: column;  /* Stack the Soft Skills section vertically */
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main7>#main7se2>#main7se2d1>div {
+        width: 70%;  /* Full width for the text content */
+        height: auto;  /* Let height adjust based on content */
+        padding: 1em;
+        margin-bottom: 1em;  /* Add margin at the bottom for spacing */
+    }
+
+    #main7>#main7se2>#main7se2d1>div>b {
+        font-size: 1em;  /* Smaller heading size for each skill */
+    }
+
+    #main7>#main7se2>#main7se2d1>div>p {
+        margin-left: 0.5em;  /* Reduce left margin for paragraphs */
+        font-size: 0.9em;  /* Smaller font size for paragraphs */
+    }
+}
+
+/* For extra small devices (320px and below) */
+@media (max-width: 320px) {
+    #main7>h2 {
+        font-size: 18px;  /* Even smaller font size for small devices */
+    }
+
+    #main7>span {
+        font-size: 14px;  /* Further reduce the subheading font size */
+    }
+
+    #main7se1>#id1 {
+        width: 70%;  /* Full width on mobile */
+        height: auto;  /* Height adjusts based on content */
+        padding: 1em;  /* Add padding for better spacing */
+    }
+
+    #main7se1>#id1>div {
+        grid-template-columns: 1fr;  /* Stack icons in a single column */
+        row-gap: 1.5em;
+    }
+
+    #main7se1>#id1>div>img {
+        width: 40%;  /* Increase icon size for small screens */
+    }
+
+    #main7>#main7se2>#main7se2d1>div {
+        width: 60%;  /* Full width for Soft Skills section */
+    }
+
+    #main7>#main7se2>#main7se2d1>div>p {
+        font-size: 0.8em;  /* Smaller font size for paragraphs */
+    }
+}
+
