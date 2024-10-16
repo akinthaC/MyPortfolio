@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assest/style/about-page.css">
     <link rel="stylesheet" href="assest/style/work-page.css">
     <link rel="stylesheet" href="assest/style/project-page.css">
+    <link rel="stylesheet" href="assest/style/assignment-page.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
@@ -178,70 +179,94 @@
 </main>
 
 
-<!--<main id="main5">
+<main id="main5">
     <h2>My assignment.</h2>
     <section id="main5se1">
-        <div>
 
-            &lt;!&ndash; Card title &ndash;&gt;
-            <h3>Assignment 01</h3>
-            <img src="" alt="Assignment 01">
-            &lt;!&ndash; Card description &ndash;&gt;
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            &lt;!&ndash; Card button &ndash;&gt;
-            <button>View more</button>
+        <div class="cards">
+            <div class="contents">
+                <!-- Card title -->
+                <h2>01</h2>
+                <h3>Assignment 01</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <!-- Card button -->
+                <a href="">View more</a>
+            </div>
         </div>
-        &lt;!&ndash; Card 2 &ndash;&gt;
-        <div>
-            &lt;!&ndash; Card title &ndash;&gt;
-            <h3>Assignment 02</h3>
-            <img src="" alt="Assignment 02">
-            &lt;!&ndash; Card description &ndash;&gt;
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            &lt;!&ndash; Card button &ndash;&gt;
-            <button>View more</button>
+
+
+
+        <!-- Card 2 -->
+        <div class="cards">
+            <div class="contents">
+                <!-- Card title -->
+                <h2>02</h2>
+                <h3>Assignment 01</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <!-- Card button -->
+                <a href="">View more</a>
+            </div>
         </div>
-        &lt;!&ndash; Card 3 &ndash;&gt;
-        <div>
-            &lt;!&ndash; Card title &ndash;&gt;
-            <h3>Assignment 03</h3>
-            <img src="" alt="Assignment 03">
-            &lt;!&ndash; Card description &ndash;&gt;
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            &lt;!&ndash; Card button &ndash;&gt;
-            <button>View more</button>
+
+
+
+        <!-- Card 3 -->
+        <div class="cards">
+            <div class="contents">
+                <!-- Card title -->
+                <h2>03</h2>
+                <h3>Assignment 01</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <!-- Card button -->
+                <a href="">View more</a>
+            </div>
         </div>
-        <div>
-            &lt;!&ndash; Card title &ndash;&gt;
-            <h3>Assignment 04</h3>
-            <img src="" alt="Assignment 04">
-            &lt;!&ndash; Card description &ndash;&gt;
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            &lt;!&ndash; Card button &ndash;&gt;
-            <button>View more</button>
+
+
+        <div class="cards">
+            <div class="contents">
+                <!-- Card title -->
+                <h2>04</h2>
+                <h3>Assignment 01</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <!-- Card button -->
+                <a href="">View more</a>
+            </div>
         </div>
-        &lt;!&ndash; Card 2 &ndash;&gt;
-        <div>
-            &lt;!&ndash; Card title &ndash;&gt;
-            <h3>Assignment 05</h3>
-            <img src="" alt="Assignment 05">
-            &lt;!&ndash; Card description &ndash;&gt;
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            &lt;!&ndash; Card button &ndash;&gt;
-            <button>View more</button>
+
+
+
+        <!-- Card 2 -->
+        <div class="cards">
+            <div class="contents">
+                <!-- Card title -->
+                <h2>05</h2>
+                <h3>Assignment 01</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <!-- Card button -->
+                <a href="">View more</a>
+            </div>
         </div>
-        &lt;!&ndash; Card 3 &ndash;&gt;
-        <div>
-            &lt;!&ndash; Card title &ndash;&gt;
-            <h3>Assignment 06</h3>
-            <img src="" alt="Assignment 06">
-            &lt;!&ndash; Card description &ndash;&gt;
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            &lt;!&ndash; Card button &ndash;&gt;
-            <button id="99">View more</button>
+
+
+
+        <!-- Card 3 -->
+        <div class="cards">
+            <div class="contents">
+                <!-- Card title -->
+                <h2>06</h2>
+                <h3>Assignment 01</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <!-- Card button -->
+                <a href="">View more</a>
+            </div>
         </div>
+
+
     </section>
-</main>-->
+</main>
+
+
 <!--
 
 
@@ -464,6 +489,15 @@
 <script src="lib/fontawesome-free-6.6.0-web/js/all.min.js"></script>
 <script>
     AOS.init();
+</script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".cards"),{
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare":1,
+    });
 </script>
 </body>
 </html>
