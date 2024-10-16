@@ -5,7 +5,7 @@
 
 /* General Styles for Larger Screens */
 #main2:nth-child(3)>h2 {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -22,9 +22,9 @@
     font-weight: 800;
     font-style: normal;
     margin-right: 15em;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-left: 3em;
     letter-spacing: 0.19em;
     line-height: 3rem;
