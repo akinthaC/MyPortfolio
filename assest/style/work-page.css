@@ -106,7 +106,7 @@
     background: linear-gradient(315deg, #0a1c93, #940d0d);
 }
 #main3>h2{
-    font-size: 48px;
+    font-size: 40px;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -450,6 +450,9 @@
 }
 
 @media (max-width: 426px) and (min-width: 376px){
+    #main3>h2 {
+        font-size: 30px;
+    }
     #main3>#main3se1 {
         display: grid;
         grid-template-columns: 1fr; /* Single column */
@@ -527,6 +530,9 @@
 }
 
 @media (max-width: 376px)and (min-width: 219px){
+    #main3>h2 {
+        font-size: 30px;
+    }
     #main3>#main3se1 {
         display: grid;
         grid-template-columns: 1fr; /* Single column layout */

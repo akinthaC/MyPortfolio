@@ -249,7 +249,26 @@ body{
     }
 
     .content p:nth-child(2) {
-        font-size: 14px; /* Smaller font size for content */
+        font-size: 11px; /* Smaller font size for content */
         font-weight: 500;
+    }
+
+    .content button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 1px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .content{
+        padding: 20px;
     }
 }
