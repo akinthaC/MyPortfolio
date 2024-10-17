@@ -213,7 +213,7 @@
     }
 
     #main9se1>P {
-        font-size: 1.3em;
+        font-size: 1.1em;
         color: #95BFFA;
         font-weight: bold;
         text-align: justify;
@@ -223,15 +223,19 @@
         padding: 10px;
     }
 
-    #main9se2 {
-        display: flex;
-        flex-direction: column; /* Arrange items in a column */
-        justify-content: center; /* Center vertically */
-        align-items: center; /* Center horizontally */
-        min-height: 100vh; /* Optional: Adjust height to make vertical centering effective */
-        gap: 10px; /* Maintain gap between inputs */
+    #button1{
+        margin: 0 auto;
+
     }
 
+  /*  #main9se2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        gap: 10px;
+    }*/
     #main9se1 a {
         display: block;
         padding: 5px;
@@ -245,8 +249,8 @@
     }
 
     #name, #email, #message {
-        width: 25em;
-        height: 4em;
+        width: 100%;
+        height: 3em;
         font-size: 0.9em;
         letter-spacing: 2px;
         padding-left: 25px; /* Keeps the text padding from the left */
@@ -311,19 +315,24 @@
         font-weight: bold;
         text-align: justify;
     }
+    #button1{
+        margin: 0 auto;
+
+    }
 
     #main9se2 div {
         padding: 10px;
     }
 
-    #main9se2 {
+  /*  #main9se2 {
         display: flex;
-        flex-direction: column; /* Arrange items in a column */
-        justify-content: center; /* Center vertically */
-        align-items: center; /* Center horizontally */
-        min-height: 100vh; /* Optional: Adjust height to make vertical centering effective */
-        gap: 10px; /* Maintain gap between inputs */
-    }
+        flex-direction: column; !* Arrange items in a column *!
+        justify-content: center; !* Center vertically *!
+        align-items: center; !* Center horizontally *!
+        min-height: 100vh; !* Optional: Adjust height to make vertical centering effective *!
+        gap: 10px; !* Maintain gap between inputs *!
+    }*/
+
 
     #main9se1 a {
         display: block;
@@ -337,7 +346,7 @@
     }
 
     #name, #email, #message {
-        width: 27em;
+        width: 100%;
         height: 4em;
         font-size: 0.7em;
         letter-spacing: 2px;
@@ -403,18 +412,23 @@
         text-align: justify;
     }
 
+    #button1{
+        margin: 0 auto;
+
+    }
+
     #main9se2 div {
         padding: 10px;
     }
-
+/*
     #main9se2 {
         display: flex;
-        flex-direction: column; /* Arrange items in a column */
-        justify-content: center; /* Center vertically */
-        align-items: center; /* Center horizontally */
-        min-height: 100vh; /* Optional: Adjust height to make vertical centering effective */
-        gap: 10px; /* Maintain gap between inputs */
-    }
+        flex-direction: column; !* Arrange items in a column *!
+        justify-content: center; !* Center vertically *!
+        align-items: center; !* Center horizontally *!
+        min-height: 100vh; !* Optional: Adjust height to make vertical centering effective *!
+        gap: 10px; !* Maintain gap between inputs *!
+    }*/
 
     #main9se1 a {
         display: block;
@@ -428,9 +442,9 @@
     }
 
     #name, #email, #message {
-        width: 23em;
-        height: 4em;
-        font-size: 0.6em;
+        width: 95%;
+        height: 2em;
+        font-size: 0.8em;
         letter-spacing: 2px;
         padding-left: 25px; /* Keeps the text padding from the left */
         border-radius: 1em;
@@ -443,7 +457,7 @@
         height: 15em;
         padding-left: 20px;
         padding-top: 10px;
-        font-size: 0.6em;
+        font-size: 0.8em;
         letter-spacing: 2px;
     }
 
