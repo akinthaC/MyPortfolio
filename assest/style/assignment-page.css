@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-#main5>h2{
+#main5>h2 {
+    margin-top: 2em;
+    font-size: 40px;
+    color: white;
     display: flex;
     justify-content: space-evenly;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 5px;
 }
 
 #main5se1{
@@ -94,6 +98,7 @@
     #main5 > h2 {
         font-size: 40px;
     }
+
 }
 
 /* Media query for tablets (600px - 768px) */
@@ -202,6 +207,12 @@
     .contents > a {
         padding: 5px 14px;
     }
+    #main5se1>.cards{
+        position: relative;
+        width: 200px;
+        height: 340px;
+        margin: 30px;
+    }
 }
 
 /* Media query for mobile small (up to 375px) */
@@ -236,6 +247,13 @@
 
     .contents > a {
         padding: 4px 12px;
+    }
+
+    #main5se1>.cards{
+        position: relative;
+        width: 200px;
+        height: 340px;
+        margin: 30px;
     }
 }
 

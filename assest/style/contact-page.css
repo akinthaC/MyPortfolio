@@ -9,13 +9,16 @@
 #main9{
     margin-top: 4em;
 }
-#main9>h2{
-    margin-top: 1em;
+
+#main9>h2 {
+    font-size: 40px;
+    color: white;
     display: flex;
     justify-content: space-evenly;
-    color: white;
-    font-size: 55px;
-    font-weight: bold;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 5px;
 }
 
 #main9se1, #main9se2 {
@@ -296,7 +299,7 @@
 
 @media (max-width: 426px) and (min-width: 376px){
     #main9>h2{
-        font-size: 34px;
+        font-size: 30px;
     }
 
     #main9>.sectionMain9 {
@@ -392,7 +395,7 @@
 
 @media (max-width: 376px)and (min-width: 219px){
     #main9>h2{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     #main9>.sectionMain9 {

@@ -17,9 +17,6 @@
 
 #educationSec{
 
-    padding: 0 5%;
-    position: relative;
-    height: auto;
 }
 
 .timeLine{
@@ -79,6 +76,10 @@
 
 .right-card .content-edu{
     left: -20px;
+}
+
+.left-card .content-edu{
+    right: -17px;
 }
 
 
@@ -191,3 +192,279 @@
     }
 }
 */
+
+@media  (max-width: 1024px) and (min-width: 769px) {
+    .cardText{
+        position: relative;
+        padding: 20px 10px;
+        background-color: transparent;
+        border-radius: 2em;
+        font-size: 15px;
+        border: 0.2em solid black;
+        height: 12em;
+    }
+
+    .right-card{
+        left: 50%;
+    }
+
+    .left-card{
+        right: 0%;
+    }
+
+    .right-card .content-edu{
+        left: -20px;
+    }
+
+    .left-card .content-edu{
+        right: -1px;
+    }
+
+    .topic{
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 5px;
+
+    }
+
+    .cardText>p{
+        font-size: 17px;
+
+    }
+
+    .cardText>h3{
+
+    }
+    .card{
+        padding: 10px 30px;
+        position: relative;
+        width: 42%;
+    }
+
+
+
+}
+
+@media  (max-width: 768px) and (min-width: 426px) {
+    .cardText{
+        position: relative;
+        padding: 10px 10px;
+        background-color: transparent;
+        border-radius: 2em;
+        font-size: 14px;
+        border: 0.2em solid black;
+        height: 14em;
+
+
+    }
+
+    .right-card{
+        left: 50%;
+    }
+
+    .left-card{
+        right: -5%;
+    }
+
+    .right-card .content-edu{
+        left: -20px;
+    }
+
+    .left-card .content-edu{
+        right: -20px;
+    }
+
+    .topic{
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 5px;
+
+    }
+
+    .cardText>p{
+        font-size: 12px;
+
+    }
+
+    .cardText>h3{
+
+    }
+    .card{
+        padding: 10px 0px;
+        position: relative;
+        width: 42%;
+    }
+
+
+    #main6>h2 {
+        font-size: 30px;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: "Inter", serif;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: 5px;
+    }
+
+
+
+
+
+}
+
+@media  (max-width: 426px) and (min-width: 376px) {
+    .cardText{
+        position: relative;
+        padding: 10px 10px;
+        background-color: transparent;
+        border-radius: 2em;
+        font-size: 12px;
+        border: 0.2em solid black;
+        height: 16em;
+
+
+    }
+    .content-edu{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: yellow;
+        right: -16px;
+        top: 32px;
+        z-index: 1;
+        box-shadow: 0px 0px 70px rgb(210, 208, 29);
+    }
+
+    #main6>h2 {
+        font-size: 28px;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: "Inter", serif;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: 5px;
+    }
+
+    .right-card{
+        left: 50%;
+    }
+
+    .left-card{
+        right: 0%;
+    }
+
+    .right-card .content-edu{
+        left: -20px;
+    }
+
+    .left-card .content-edu{
+        right: -23px;
+    }
+
+    .topic{
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 5px;
+
+    }
+
+    .cardText>p{
+        font-size: 12px;
+
+    }
+
+    .cardText>h3{
+
+    }
+    .card{
+        padding: 10px 0px;
+        position: relative;
+        width: 42%;
+    }
+
+
+
+
+
+}
+
+@media  (max-width: 376px)and (min-width: 219px) {
+    .cardText{
+        position: relative;
+        padding: 10px 10px;
+        background-color: transparent;
+        border-radius: 2em;
+        font-size: 12px;
+        border: 0.2em solid black;
+        height: 18em;
+
+
+    }
+    .content-edu{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: yellow;
+        right: -16px;
+        top: 32px;
+        z-index: 1;
+        box-shadow: 0px 0px 70px rgb(210, 208, 29);
+    }
+
+    #main6>h2 {
+        font-size: 28px;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: "Inter", serif;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: 5px;
+    }
+
+    .right-card{
+        left: 50%;
+    }
+
+    .left-card{
+        right: 0;
+    }
+
+    .right-card .content-edu{
+        left: -20px;
+    }
+
+    .left-card .content-edu{
+        right: -20px;
+    }
+
+    .topic{
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 5px;
+
+    }
+
+    .cardText>p{
+        font-size: 10px;
+
+    }
+
+    .cardText>h3{
+
+    }
+    .card{
+        padding: 10px 10px;
+        position: relative;
+        width: 42%;
+    }
+
+
+
+
+
+}

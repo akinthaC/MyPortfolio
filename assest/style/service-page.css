@@ -1,11 +1,15 @@
-#main8>h2{
-    margin-top: 1em;
+
+#main8>h2 {
+    font-size: 40px;
+    color: white;
     display: flex;
     justify-content: space-evenly;
-    color: white;
-    font-size: 55px;
-    font-weight: bold;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 5px;
 }
+
 
 #main8>#main8se1 {
     display: grid;
@@ -154,7 +158,7 @@
 /* Responsive for mobile medium (max-width: 375px) */
 @media only screen and (max-width: 375px) {
     #main8>h2 {
-        font-size: 35px; /* Further reduced font size */
+        font-size: 30px; /* Further reduced font size */
     }
 
     #main8>#main8se1 {
@@ -192,7 +196,7 @@
 /* Responsive for mobile small (max-width: 320px) */
 @media only screen and (max-width: 320px) {
     #main8>h2 {
-        font-size: 30px; /* Reduced font size for small mobile */
+        font-size: 28px; /* Reduced font size for small mobile */
         text-align: center;
         margin-top: 0.25em;
     }
