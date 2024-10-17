@@ -1,0 +1,473 @@
+#main9>.sectionMain9 {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 25px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#main9{
+    margin-top: 4em;
+}
+#main9>h2{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#main9se1, #main9se2 {
+
+    padding: 10px;
+    border-radius: 5px;
+}
+#main9se1 {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 0px;
+}
+
+#main9se1 a {
+    display: block;
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    color: white;
+    line-height:0.1;
+    font-size: 1.3em;
+    text-decoration: underline; /* Add underline */
+    text-decoration-color: white;
+
+}
+#main9se2 {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+
+#main9se1>P {
+    font-size: 2em;
+    color: #95BFFA;
+    font-weight: bold;
+}
+
+#main9se2 div {
+    padding: 10px;
+}
+
+
+#button1{
+    background-color: #060E1C;
+    color: white;
+    font-size: 1.2em;
+    width: 7em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0;
+    margin-left: 15px;
+    display: block;
+
+}
+#name, #email, #message {
+    width: 31em;
+    height: 4em;
+    border-radius: 1em;
+    border: 0;
+    background: rgb(14, 50, 70);
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 1em;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    padding-top: 9px;
+}
+
+
+#message {
+    height: 15em;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-size: 1.2em;
+    letter-spacing: normal;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+
+#message::placeholder {
+    padding-top: 10px;
+}
+#name:focus, #email:focus, #message:focus {
+    outline:none;
+}
+
+#name, #email, #message {
+    position: relative;
+    z-index: 1;
+}
+
+
+@media (max-width: 1024px) and (min-width: 769px){
+    #main9>h2{
+        font-size: 38px;
+    }
+
+    #main9se2 {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 9px;
+    }
+
+    #main9se1>P {
+        font-size: 1.5em;
+        color: #95BFFA;
+        font-weight: bold;
+    }
+
+    #main9se2 div {
+        padding: 10px;
+    }
+
+    #name, #email, #message {
+        width: 27em;
+        height: 4em;
+        font-size: 0.9em;
+        letter-spacing: 2px;
+        padding-left: 25px;
+        padding-top: 8px;
+    }
+
+    #message {
+        height: 15em;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 0.9em;
+        letter-spacing: 2px;
+    }
+
+
+    #name::placeholder,
+    #email::placeholder,
+    #message::placeholder {
+        color: white;
+        opacity: 0.5;
+        font-size: 1.2em;
+        letter-spacing: normal;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+
+
+    #message::placeholder {
+        padding-top: 20px;
+    }
+    #main9se1, #main9se2 {
+
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    #main9se1 a {
+        display: block;
+        padding: 5px;
+        margin-bottom: 25px;
+        border-radius: 3px;
+        color: white;
+        line-height:0.1;
+        font-size: 1.1em;
+
+
+    }
+
+
+}
+
+@media (max-width: 768px) and (min-width: 426px){
+    #main9>h2{
+        font-size: 38px;
+    }
+
+    #main9>.sectionMain9 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    #main9se2 {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 0;
+    }
+
+    #main9se1>P {
+        font-size: 1.3em;
+        color: #95BFFA;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    #main9se2 div {
+        padding: 10px;
+    }
+
+    #main9se2 {
+        display: flex;
+        flex-direction: column; /* Arrange items in a column */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        min-height: 100vh; /* Optional: Adjust height to make vertical centering effective */
+        gap: 10px; /* Maintain gap between inputs */
+    }
+
+    #main9se1 a {
+        display: block;
+        padding: 5px;
+        margin-bottom: 25px;
+        border-radius: 3px;
+        color: white;
+        line-height: 1.1;
+        font-size: 1.1em;
+        text-align: center;
+
+    }
+
+    #name, #email, #message {
+        width: 25em;
+        height: 4em;
+        font-size: 0.9em;
+        letter-spacing: 2px;
+        padding-left: 25px; /* Keeps the text padding from the left */
+        border-radius: 1em;
+        border: 0;
+        background: rgb(14, 50, 70);
+        color: #ffffff;
+    }
+
+    #message {
+        height: 15em;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 0.9em;
+        letter-spacing: 2px;
+    }
+
+
+    #name::placeholder,
+    #email::placeholder,
+    #message::placeholder {
+        color: white;
+        opacity: 0.5;
+        font-size: 1.2em;
+        letter-spacing: normal;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+
+
+    #message::placeholder {
+        padding-top: 20px;
+    }
+    #main9se1, #main9se2 {
+
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+
+
+}
+
+@media (max-width: 426px) and (min-width: 376px){
+    #main9>h2{
+        font-size: 34px;
+    }
+
+    #main9>.sectionMain9 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    #main9se2 {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 0;
+    }
+
+    #main9se1>P {
+        font-size: 1em;
+        color: #95BFFA;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    #main9se2 div {
+        padding: 10px;
+    }
+
+    #main9se2 {
+        display: flex;
+        flex-direction: column; /* Arrange items in a column */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        min-height: 100vh; /* Optional: Adjust height to make vertical centering effective */
+        gap: 10px; /* Maintain gap between inputs */
+    }
+
+    #main9se1 a {
+        display: block;
+        margin-bottom: 25px;
+        border-radius: 3px;
+        color: white;
+        line-height: 1.1;
+        font-size: 1em;
+        text-align: center;
+
+    }
+
+    #name, #email, #message {
+        width: 27em;
+        height: 4em;
+        font-size: 0.7em;
+        letter-spacing: 2px;
+        padding-left: 25px; /* Keeps the text padding from the left */
+        border-radius: 1em;
+        border: 0;
+        background: rgb(14, 50, 70);
+        color: #ffffff;
+    }
+
+    #message {
+        height: 15em;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 0.7em;
+        letter-spacing: 2px;
+    }
+
+
+    #name::placeholder,
+    #email::placeholder,
+    #message::placeholder {
+        color: white;
+        opacity: 0.5;
+        font-size: 1em;
+        letter-spacing: normal;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+
+
+    #message::placeholder {
+        padding-top: 20px;
+    }
+    #main9se1, #main9se2 {
+        padding: 1px; !important;
+        border-radius: 5px;
+    }
+
+
+
+}
+
+@media (max-width: 376px)and (min-width: 219px){
+    #main9>h2{
+        font-size: 30px;
+    }
+
+    #main9>.sectionMain9 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    #main9se2 {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 0;
+    }
+
+    #main9se1>P {
+        font-size: 0.7em;
+        color: #95BFFA;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    #main9se2 div {
+        padding: 10px;
+    }
+
+    #main9se2 {
+        display: flex;
+        flex-direction: column; /* Arrange items in a column */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        min-height: 100vh; /* Optional: Adjust height to make vertical centering effective */
+        gap: 10px; /* Maintain gap between inputs */
+    }
+
+    #main9se1 a {
+        display: block;
+        margin-bottom: 25px;
+        border-radius: 3px;
+        color: white;
+        line-height: 1.1;
+        font-size: 0.7em;
+        text-align: center;
+
+    }
+
+    #name, #email, #message {
+        width: 23em;
+        height: 4em;
+        font-size: 0.6em;
+        letter-spacing: 2px;
+        padding-left: 25px; /* Keeps the text padding from the left */
+        border-radius: 1em;
+        border: 0;
+        background: rgb(14, 50, 70);
+        color: #ffffff;
+    }
+
+    #message {
+        height: 15em;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 0.6em;
+        letter-spacing: 2px;
+    }
+
+
+    #name::placeholder,
+    #email::placeholder,
+    #message::placeholder {
+        color: white;
+        opacity: 0.5;
+        font-size: 0.8em;
+        letter-spacing: normal;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+
+
+    #message::placeholder {
+        padding-top: 20px;
+    }
+    #main9se1, #main9se2 {
+        padding: 1px; !important;
+        border-radius: 5px;
+    }
+
+
+
+}
