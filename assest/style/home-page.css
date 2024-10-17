@@ -577,6 +577,10 @@ header>nav>a{
 
     }
 
+    #aki{
+        font-size: 12px;
+    }
+
 
 }
 
@@ -744,6 +748,9 @@ header>nav>a{
         mix-blend-mode: normal;
         filter: drop-shadow(-10px -8px 30px #FFC225);
 
+    }
+    #aki{
+        font-size:18px;
     }
 
 
@@ -914,6 +921,9 @@ header>nav>a{
         filter: drop-shadow(-10px -8px 30px #FFC225);
 
     }
+    #aki{
+        font-size: 18px;
+    }
 
 }
 
@@ -1083,6 +1093,9 @@ header>nav>a{
         mix-blend-mode: normal;
         filter: drop-shadow(-10px -8px 30px #FFC225);
 
+    }
+    #aki{
+        font-size: 20px;
     }
 
 }
