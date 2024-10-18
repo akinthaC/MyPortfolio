@@ -1,11 +1,48 @@
-footer{
+footer {
     display: flex;
     justify-content: center;
-
+    background-color: #060E1C;
+}
     h6{
         text-align: center;
         color: white;
-        font-size: 1.5em;
+        font-size: 1.3em;
+        margin: 0;
+    }
+
+
+@media  (max-width: 1024px) and (min-width: 769px){
+    h6{
+        text-align: center;
+        color: white;
+        font-size: 1em;!important;
+        margin: 0;
+    }
+}
+
+@media  (max-width: 768px) and (min-width: 426px){
+    h6{
+        text-align: center;
+        color: white;
+        font-size: 1em;!important;
+        margin: 0;
+    }
+}
+
+@media  (max-width: 426px) and (min-width: 376px){
+    h6{
+        text-align: center;
+        color: white;
+        font-size: 0.8em;!important;
+        margin: 0;
+    }
+}
+
+@media  (max-width: 376px)and (min-width: 219px){
+    h6{
+        text-align: center;
+        color: white;
+        font-size: 0.6em;!important;
         margin: 0;
     }
 }
