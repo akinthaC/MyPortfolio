@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #15212E; /* Dark background for contrast */
+    margin: 0;
+    perspective: 1000px; /* Perspective for 3D effect */
+}
+
+.loader {
+    width: 100px; /* Cube size */
+    height: 100px; /* Cube size */
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotate 2s infinite linear; /* Rotation animation */
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+.face {
+    position: absolute;
+    width: 100px; /* Face size */
+    height: 100px; /* Face size */
+    border: 2px solid #fff; /* White border for depth */
+    opacity: 0.8; /* Slight transparency for a modern look */
+}
+
+.front {
+    background: linear-gradient(45deg, #ff007f, #ff4b00); /* Gradient color */
+    transform: translateZ(50px); /* Move forward */
+}
+
+.back {
+    background: linear-gradient(45deg, #ff4b00, #ff007f); /* Gradient color */
+    transform: rotateY(180deg) translateZ(50px); /* Move backward */
+}
+
+.left {
+    background: linear-gradient(45deg, #00c6ff, #0072ff); /* Gradient color */
+    transform: rotateY(-90deg) translateZ(50px); /* Move left */
+}
+
+.right {
+    background: linear-gradient(45deg, #0072ff, #00c6ff); /* Gradient color */
+    transform: rotateY(90deg) translateZ(50px); /* Move right */
+}
+
+.top {
+    background: linear-gradient(45deg, #00ff72, #00c6ff); /* Gradient color */
+    transform: rotateX(90deg) translateZ(50px); /* Move up */
+}
+
+.bottom {
+    background: linear-gradient(45deg, #00c6ff, #00ff72); /* Gradient color */
+    transform: rotateX(-90deg) translateZ(50px); /* Move down */
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
