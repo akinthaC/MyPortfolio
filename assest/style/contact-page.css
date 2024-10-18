@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
 #main9>.sectionMain9 {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
@@ -252,7 +256,7 @@
     }
 
     #name, #email, #message {
-        width: 100%;
+        width: 95%;
         height: 3em;
         font-size: 0.9em;
         letter-spacing: 2px;
@@ -349,7 +353,7 @@
     }
 
     #name, #email, #message {
-        width: 100%;
+        width: 95%;
         height: 4em;
         font-size: 0.7em;
         letter-spacing: 2px;

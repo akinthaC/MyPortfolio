@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 
 #main5>h2 {
@@ -53,17 +54,28 @@
     font-size: 8em;
     color: rgba(255,255,255,0.05);
     pointer-events: none;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 5px;
 }
 
 .contents>h3{
     font-size: 1.8em;
     color: #FFFFFF;
     z-index: 1;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
 }
 .contents>p{
     font-size: 1em;
     color: #FFFFFF;
-    font-weight: 300;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .contents>a{
@@ -87,9 +99,51 @@
     opacity: 1;
 }
 
+.main5Img{
+    position: relative;
+    width: 2em;
+    height: 2em;
+}
+
+.main5Img>img:nth-child(1){
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 29em;
+    bottom: -42em;
+}
+.main5Img>img:nth-child(2){
+    position: absolute;
+    bottom: -15em;
+    left: 42em;
+    width: 18em;
+    height: 18em;
+}
+.main5Img>img:nth-child(3){
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    bottom: -50em;
+    left: 49em;
+  ]
+}
 
 
-@media (max-width: 1024px) {
+.main5Img>img:nth-child(4){
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    bottom: -20em;
+    left: 10em;
+
+}
+
+
+
+
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
     #main5se1 {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         padding: 10px;
@@ -98,11 +152,46 @@
     #main5 > h2 {
         font-size: 40px;
     }
+    .main5Img>img:nth-child(1){
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 10em;
+        bottom: -42em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(2){
+        position: absolute;
+        bottom: -15em;
+        left: 12em;
+        width: 20em;
+        height: 20em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(3){
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        bottom: -50em;
+        left: 15em;
+
+    }
+
+    .main5Img>img:nth-child(4){
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        bottom: -70em;
+        left: 10em;
+
+    }
 
 }
 
 /* Media query for tablets (600px - 768px) */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 426px) {
     #main5se1 {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 20px;
@@ -136,6 +225,42 @@
 
     .contents > a {
         padding: 6px 18px;
+    }
+
+    .main5Img>img:nth-child(1){
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 5em;
+        bottom: -42em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(2){
+        position: absolute;
+        bottom: -45em;
+        left: 2em;
+        width: 20em;
+        height: 20em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(3){
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        bottom: -80em;
+        left: 15em;
+
+    }
+
+    .main5Img>img:nth-child(4){
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        bottom: -90em;
+        left: 10em;
+
     }
 }
 
@@ -172,10 +297,45 @@
     .contents > a {
         padding: 5px 16px;
     }
+    .main5Img>img:nth-child(1){
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 5em;
+        bottom: -42em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(2){
+        position: absolute;
+        bottom: -55em;
+        left: 2em;
+        width: 20em;
+        height: 20em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(3){
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        bottom: -100em;
+        left: 15em;
+
+    }
+
+    .main5Img>img:nth-child(4){
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        bottom: -150em;
+        left: 10em;
+
+    }
 }
 
 /* Media query for mobile medium (375px - 425px) */
-@media (max-width: 425px) {
+@media (max-width: 426px) and (min-width: 376px) {
     #main5se1 {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -213,10 +373,45 @@
         height: 340px;
         margin: 30px;
     }
+    .main5Img>img:nth-child(1){
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 5em;
+        bottom: -62em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(2){
+        position: absolute;
+        bottom: -55em;
+        left: 2em;
+        width: 20em;
+        height: 20em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(3){
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        bottom: -100em;
+        left: 15em;
+
+    }
+
+    .main5Img>img:nth-child(4){
+        position: absolute;
+        width: 3em;
+        height: 3em;
+        bottom: -150em;
+        left: 10em;
+
+    }
 }
 
 /* Media query for mobile small (up to 375px) */
-@media (max-width: 375px) {
+@media (max-width: 376px)and (min-width: 219px){
     #main5se1 {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -254,6 +449,41 @@
         width: 200px;
         height: 340px;
         margin: 30px;
+    }
+    .main5Img>img:nth-child(1){
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 2em;
+        bottom: -42em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(2){
+        position: absolute;
+        bottom: -55em;
+        left: 2em;
+        width: 10em;
+        height: 10em;
+        margin: 0;
+        padding: 0;
+    }
+    .main5Img>img:nth-child(3){
+        position: absolute;
+        width: 2em;
+        height: 2em;
+        bottom: -100em;
+        left: 15em;
+
+    }
+
+    .main5Img>img:nth-child(4){
+        position: absolute;
+        width: 2em;
+        height: 2em;
+        bottom: -150em;
+        left: 10em;
+
     }
 }
 
