@@ -3,7 +3,7 @@
 
 
 #main7>h2{
-    margin-top: 2em;
+    margin-top: 4.5em;
     font-size: 40px;
     color: white;
     display: flex;
@@ -57,6 +57,19 @@
 
 #main7se1>#id1>div>img{
     width: 40%;
+    animation: animate 2s linear infinite ;
+}
+
+
+@keyframes animate {
+    0%,100%{
+        transform: translateY(10px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
 }
 
 #main7>#main7se2>span{
