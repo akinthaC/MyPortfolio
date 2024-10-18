@@ -337,7 +337,7 @@ header>nav>a{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     /* Show the open button for small screens */
     .open-sider-button {
         display: flex;
@@ -1099,8 +1099,8 @@ header>nav>a{
         justify-content: center; /* Horizontal alignment */
         align-items: center;     /* Vertical alignment */
         position: absolute;      /* Ensure it can be moved around the container */
-        left: 55%;               /* Move the image to the center horizontally */
-        top: 55%;                /* Move the image to the center vertically */
+        left: 43%;               /* Move the image to the center horizontally */
+        top: 52%;                /* Move the image to the center vertically */
         transform: translate(-50%, -50%); /* Adjust for the element's own width and height */
         width: 183px;
         mix-blend-mode: normal;
