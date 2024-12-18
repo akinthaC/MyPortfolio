@@ -1,48 +1,77 @@
+/* General Footer Styling */
 footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    background-color: #060E1C;
-}
-    h6{
-        text-align: center;
-        color: white;
-        font-size: 1.3em;
-        margin: 0;
-    }
-
-
-@media  (max-width: 1024px) and (min-width: 769px){
-    h6{
-        text-align: center;
-        color: white;
-        font-size: 1em;!important;
-        margin: 0;
-    }
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
 }
 
-@media  (max-width: 768px) and (min-width: 426px){
-    h6{
-        text-align: center;
-        color: white;
-        font-size: 1em;!important;
-        margin: 0;
-    }
+/* Copyright Text */
+.footer-container p {
+    margin: 0;
+    font-size: 16px;
 }
 
-@media  (max-width: 426px) and (min-width: 376px){
-    h6{
-        text-align: center;
-        color: white;
-        font-size: 0.8em;!important;
-        margin: 0;
-    }
+/* Navigation Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
 }
 
-@media  (max-width: 376px)and (min-width: 219px){
-    h6{
-        text-align: center;
-        color: white;
-        font-size: 0.6em;!important;
-        margin: 0;
-    }
+.footer-links li {
+    display: block;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #1abc9c;
+    font-size: 17px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #e74c3c;
+}
+
+/* Social Media Links */
+.footer-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-socials a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+    color: #3498db;
+}
+
+/* Icon Styling */
+footer i {
+    font-size: 48px;
 }
